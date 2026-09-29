@@ -1,0 +1,77 @@
+{
+  "created_utc": "2026-09-29T21:56:31.835519+00:00",
+  "results": [
+    {
+      "notebook": "notebooks/01_one_variable_optimization.ipynb",
+      "status": "passed",
+      "seconds": 2.849,
+      "code_cells": 4,
+      "png_outputs": 1,
+      "source_sha256": "e62d99a4c4401c8f92b83b8d8989d4ec99ef7a3106cf2615bb6bddde8638d4ab"
+    },
+    {
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "status": "passed",
+      "seconds": 2.786,
+      "code_cells": 7,
+      "png_outputs": 1,
+      "source_sha256": "8d2bac911dd5b186d07f6d989c37ef0b02cfab9d5f4ff22c92a41baddea22ce7"
+    },
+    {
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "status": "passed",
+      "seconds": 3.151,
+      "code_cells": 10,
+      "png_outputs": 2,
+      "source_sha256": "839a098f8460874e165623e1f7535a896db677714941c30cb8ea7145c00ad0f0"
+    },
+    {
+      "notebook": "notebooks/04_introduction_dynamic_models.ipynb",
+      "status": "passed",
+      "seconds": 3.788,
+      "code_cells": 12,
+      "png_outputs": 5,
+      "source_sha256": "5db699e35faab96db51faa8f75fcddba488c0348358f416e08cb17e9daf3b68f"
+    },
+    {
+      "notebook": "notebooks/05_analysis_dynamic_models.ipynb",
+      "status": "passed",
+      "seconds": 3.042,
+      "code_cells": 9,
+      "png_outputs": 3,
+      "source_sha256": "91dd8da6ab4985fccfe969c69e9d0ffd537f0de33e0b524469a317be00eff1b2"
+    },
+    {
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "status": "passed",
+      "seconds": 8.072,
+      "code_cells": 21,
+      "png_outputs": 11,
+      "source_sha256": "7cddad58f2cbfdc83991fbc61200d681827ec2c9475f19e7f1a40ea212cd2207"
+    },
+    {
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "status": "passed",
+      "seconds": 3.977,
+      "code_cells": 10,
+      "png_outputs": 4,
+      "source_sha256": "8a802cd1ba4c08a84e671896b10d49a0222a5407c8cced63808e6ee1201ea39d"
+    },
+    {
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "status": "passed",
+      "seconds": 3.683,
+      "code_cells": 13,
+      "png_outputs": 5,
+      "source_sha256": "41f9a33690eb7fffbdb7b280b705ec28489a2c07ba49da04a9e32a083414dacf"
+    },
+    {
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "status": "passed",
+      "seconds": 4.938,
+      "code_cells": 17,
+      "png_outputs": 7,
+      "source_sha256": "b0482186a7ac7dea9030a39e42ca49a9c919d9de0e3467e8813635cc43563a58"
+    }
+  ]
+}

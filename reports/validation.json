@@ -1,0 +1,41 @@
+{
+  "created_utc": "2026-09-29T21:57:03.734199+00:00",
+  "results": [
+    {
+      "notebook": "notebooks/01_one_variable_optimization.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/04_introduction_dynamic_models.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/05_analysis_dynamic_models.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "status": "passed"
+    },
+    {
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "status": "passed"
+    }
+  ]
+}

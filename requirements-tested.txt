@@ -1,0 +1,13 @@
+# Direct numerical/test versions used in the Python 3.13.5 delivery environment.
+# This is not a complete transitive lockfile. JupyterLab and rendering tools are optional additions.
+numpy==2.3.5
+scipy==1.17.0
+sympy==1.14.0
+pandas==2.2.3
+matplotlib==3.10.8
+statsmodels==0.14.6
+nbformat==5.10.4
+nbclient==0.10.4
+jupyter-client==8.8.0
+ipykernel==7.2.0
+pytest==9.0.2

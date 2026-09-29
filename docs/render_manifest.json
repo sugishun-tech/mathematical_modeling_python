@@ -1,0 +1,92 @@
+[
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/01_one_variable_optimization.ipynb",
+    "html": "01_one_variable_optimization.html",
+    "formulas": 3,
+    "computed_figures": 1,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/02_multivariable_optimization.ipynb",
+    "html": "02_multivariable_optimization.html",
+    "formulas": 20,
+    "computed_figures": 1,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/03_computational_optimization.ipynb",
+    "html": "03_computational_optimization.html",
+    "formulas": 18,
+    "computed_figures": 2,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/04_introduction_dynamic_models.ipynb",
+    "html": "04_introduction_dynamic_models.html",
+    "formulas": 22,
+    "computed_figures": 5,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/05_analysis_dynamic_models.ipynb",
+    "html": "05_analysis_dynamic_models.html",
+    "formulas": 27,
+    "computed_figures": 3,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/06_simulation_dynamic_models.ipynb",
+    "html": "06_simulation_dynamic_models.html",
+    "formulas": 26,
+    "computed_figures": 11,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/07_introduction_probability_models.ipynb",
+    "html": "07_introduction_probability_models.html",
+    "formulas": 22,
+    "computed_figures": 4,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/08_stochastic_models.ipynb",
+    "html": "08_stochastic_models.html",
+    "formulas": 16,
+    "computed_figures": 5,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  },
+  {
+    "notebook": "/mnt/data/mathematical_modeling_python/notebooks/09_simulation_probability_models.ipynb",
+    "html": "09_simulation_probability_models.html",
+    "formulas": 34,
+    "computed_figures": 7,
+    "math_errors": 0,
+    "unmatched_delimiters": 0,
+    "static_math": true,
+    "external_runtime_assets": false
+  }
+]

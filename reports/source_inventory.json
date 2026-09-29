@@ -1,0 +1,6391 @@
+{
+  "source": {
+    "title": "Mathematical Modeling, fourth edition",
+    "author": "Mark M. Meerschaert",
+    "year": 2013,
+    "pdf_pages": 368,
+    "pdf_sha256": "ec912222d4881c8c5c2b9517ab773509bedc332ffc8610c1b0d0b09cacd6627b",
+    "page_convention": "1-based file pages, not printed page labels"
+  },
+  "counts": {
+    "instructional_sections": 33,
+    "numbered_examples": 44,
+    "numbered_exercises": 164,
+    "figure_labels_detected": 180,
+    "equation_labels_detected": 227,
+    "table_labels_detected": 14
+  },
+  "limits": "All numbered examples and end-exercise identifiers were reconciled. Equations/figures/tables below are an automatic label inventory, not exhaustive independent verification. Worked notebooks cover central models; exercise statements are not solutions.",
+  "sections": [
+    {
+      "kind": "section",
+      "id": "1.1",
+      "title": "The five-step method",
+      "chapter": 1,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "1.2",
+      "title": "Sensitivity analysis",
+      "chapter": 1,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "1.3",
+      "title": "Sensitivity and robustness",
+      "chapter": 1,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "2.1",
+      "title": "Unconstrained optimization",
+      "chapter": 2,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "2.2",
+      "title": "Lagrange multipliers",
+      "chapter": 2,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "2.3",
+      "title": "Sensitivity analysis and shadow prices",
+      "chapter": 2,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "3.1",
+      "title": "One-variable optimization",
+      "chapter": 3,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "3.2",
+      "title": "Multivariable optimization",
+      "chapter": 3,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "3.3",
+      "title": "Linear programming",
+      "chapter": 3,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "3.4",
+      "title": "Discrete optimization",
+      "chapter": 3,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "4.1",
+      "title": "Steady-state analysis",
+      "chapter": 4,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "4.2",
+      "title": "Dynamical systems",
+      "chapter": 4,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "4.3",
+      "title": "Discrete-time models",
+      "chapter": 4,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "5.1",
+      "title": "Continuous-time models",
+      "chapter": 5,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "5.2",
+      "title": "Discrete-time models",
+      "chapter": 5,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "5.3",
+      "title": "Phase portraits",
+      "chapter": 5,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "6.1",
+      "title": "Discrete-time simulation",
+      "chapter": 6,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "6.2",
+      "title": "Continuous-time simulation",
+      "chapter": 6,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "6.3",
+      "title": "The Euler method",
+      "chapter": 6,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "6.4",
+      "title": "Chaos and fractals",
+      "chapter": 6,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "7.1",
+      "title": "Discrete probability",
+      "chapter": 7,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "7.2",
+      "title": "Continuous probability",
+      "chapter": 7,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "7.3",
+      "title": "Introduction to statistics",
+      "chapter": 7,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "7.4",
+      "title": "Diffusion",
+      "chapter": 7,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "8.1",
+      "title": "Markov chains",
+      "chapter": 8,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "8.2",
+      "title": "Markov processes",
+      "chapter": 8,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "8.3",
+      "title": "Linear regression",
+      "chapter": 8,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "8.4",
+      "title": "Time series",
+      "chapter": 8,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "9.1",
+      "title": "Monte Carlo simulation",
+      "chapter": 9,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "9.2",
+      "title": "The Markov property",
+      "chapter": 9,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "9.3",
+      "title": "Analytic simulation",
+      "chapter": 9,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "9.4",
+      "title": "Particle tracking",
+      "chapter": 9,
+      "status": "topic_present_not_exhaustively_reproduced"
+    },
+    {
+      "kind": "section",
+      "id": "9.5",
+      "title": "Fractional diffusion",
+      "chapter": 9,
+      "status": "topic_present_not_exhaustively_reproduced"
+    }
+  ],
+  "examples": [
+    {
+      "kind": "example",
+      "id": "1.1",
+      "chapter": 1,
+      "title": "When should the pig be sold?",
+      "pdf_page_range": "12\u201324",
+      "notebook": "notebooks/01_one_variable_optimization.ipynb",
+      "cell_id": "01-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "2.1",
+      "chapter": 2,
+      "title": "Two television products without capacity constraints",
+      "pdf_page_range": "29\u201338",
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "cell_id": "02-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "2.2",
+      "chapter": 2,
+      "title": "Television production with three capacity limits",
+      "pdf_page_range": "39\u201354",
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "cell_id": "02-007",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "2.3",
+      "chapter": 2,
+      "title": "Linear objective on a sphere",
+      "pdf_page_range": "42\u201343",
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "cell_id": "02-011",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "2.4",
+      "chapter": 2,
+      "title": "Two simultaneous equality constraints",
+      "pdf_page_range": "43\u201345",
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "cell_id": "02-015",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "2.5",
+      "chapter": 2,
+      "title": "A binding circuit-board shortage",
+      "pdf_page_range": "55\u201357",
+      "notebook": "notebooks/02_multivariable_optimization.ipynb",
+      "cell_id": "02-019",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.1",
+      "chapter": 3,
+      "title": "A pig with exponential weight growth",
+      "pdf_page_range": "65\u201373",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.2",
+      "chapter": 3,
+      "title": "Locating a fire station",
+      "pdf_page_range": "74\u201378",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-007",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.3",
+      "chapter": 3,
+      "title": "Lawn-chair production and a misleading global claim",
+      "pdf_page_range": "78\u201382",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-012",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.4",
+      "chapter": 3,
+      "title": "Crop allocation with continuous acreage",
+      "pdf_page_range": "83\u201392",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-016",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.5",
+      "chapter": 3,
+      "title": "Transporting excavation material",
+      "pdf_page_range": "90\u201398",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-020",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.6",
+      "chapter": 3,
+      "title": "Whole farm plots: corrected integer model",
+      "pdf_page_range": "99\u2013106",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-024",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "3.7",
+      "chapter": 3,
+      "title": "Assigning a limited fleet of larger trucks",
+      "pdf_page_range": "107\u2013109",
+      "notebook": "notebooks/03_computational_optimization.ipynb",
+      "cell_id": "03-028",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "4.1",
+      "chapter": 4,
+      "title": "Competing hardwood and softwood trees",
+      "pdf_page_range": "122\u2013126",
+      "notebook": "notebooks/04_introduction_dynamic_models.ipynb",
+      "cell_id": "04-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "4.2",
+      "chapter": 4,
+      "title": "Recovery and competition of whale populations",
+      "pdf_page_range": "127\u2013131",
+      "notebook": "notebooks/04_introduction_dynamic_models.ipynb",
+      "cell_id": "04-006",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "4.3",
+      "chapter": 4,
+      "title": "Manual docking with delayed control",
+      "pdf_page_range": "132\u2013138",
+      "notebook": "notebooks/04_introduction_dynamic_models.ipynb",
+      "cell_id": "04-012",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "4.4",
+      "chapter": 4,
+      "title": "A discrete vector field versus continuous decay",
+      "pdf_page_range": "135\u2013136",
+      "notebook": "notebooks/04_introduction_dynamic_models.ipynb",
+      "cell_id": "04-018",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "5.1",
+      "chapter": 5,
+      "title": "Stability of the competing-tree equilibria",
+      "pdf_page_range": "145\u2013151",
+      "notebook": "notebooks/05_analysis_dynamic_models.ipynb",
+      "cell_id": "05-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "5.2",
+      "chapter": 5,
+      "title": "The stable gain range for delayed docking",
+      "pdf_page_range": "151\u2013156",
+      "notebook": "notebooks/05_analysis_dynamic_models.ipynb",
+      "cell_id": "05-006",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "5.3",
+      "chapter": 5,
+      "title": "Phase portrait of a linear RLC circuit",
+      "pdf_page_range": "156\u2013165",
+      "notebook": "notebooks/05_analysis_dynamic_models.ipynb",
+      "cell_id": "05-011",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "5.4",
+      "chapter": 5,
+      "title": "Linearizing a nonlinear resistor",
+      "pdf_page_range": "165\u2013169",
+      "notebook": "notebooks/05_analysis_dynamic_models.ipynb",
+      "cell_id": "05-016",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "6.1",
+      "chapter": 6,
+      "title": "Discrete attrition as a two-state simulation",
+      "pdf_page_range": "177\u2013184",
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "cell_id": "06-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "6.2",
+      "chapter": 6,
+      "title": "How long does whale recovery take?",
+      "pdf_page_range": "184\u2013192",
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "cell_id": "06-006",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "6.3",
+      "chapter": 6,
+      "title": "Forward Euler and a nonlinear RLC limit cycle",
+      "pdf_page_range": "192\u2013199",
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "cell_id": "06-012",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "6.4",
+      "chapter": 6,
+      "title": "Large Euler steps create artificial whale dynamics",
+      "pdf_page_range": "199\u2013205",
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "cell_id": "06-018",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "6.5",
+      "chapter": 6,
+      "title": "An exactly solvable Euler stability test",
+      "pdf_page_range": "200\u2013201",
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "cell_id": "06-026",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "6.6",
+      "chapter": 6,
+      "title": "Lorenz convection and sensitivity to initial conditions",
+      "pdf_page_range": "205\u2013211",
+      "notebook": "notebooks/06_simulation_dynamic_models.ipynb",
+      "cell_id": "06-033",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "7.1",
+      "chapter": 7,
+      "title": "Group testing of diodes",
+      "pdf_page_range": "226\u2013231",
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "cell_id": "07-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "7.2",
+      "chapter": 7,
+      "title": "Expected payoff from two dice",
+      "pdf_page_range": "227\u2013230",
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "cell_id": "07-007",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "7.3",
+      "chapter": 7,
+      "title": "Correcting a counter for dead time",
+      "pdf_page_range": "231\u2013234",
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "cell_id": "07-012",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "7.4",
+      "chapter": 7,
+      "title": "Are 153 monthly emergency calls unusually few?",
+      "pdf_page_range": "234\u2013239",
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "cell_id": "07-016",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "7.5",
+      "chapter": 7,
+      "title": "Advection and diffusion of an airborne plume",
+      "pdf_page_range": "239\u2013243",
+      "notebook": "notebooks/07_introduction_probability_models.ipynb",
+      "cell_id": "07-021",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "8.1",
+      "chapter": 8,
+      "title": "Aquarium inventory and lost sales",
+      "pdf_page_range": "254\u2013264",
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "cell_id": "08-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "8.2",
+      "chapter": 8,
+      "title": "A three-state discrete Markov chain",
+      "pdf_page_range": "255\u2013259",
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "cell_id": "08-006",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "8.3",
+      "chapter": 8,
+      "title": "A finite-capacity forklift repair queue",
+      "pdf_page_range": "264\u2013274",
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "cell_id": "08-012",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "8.4",
+      "chapter": 8,
+      "title": "Embedded jump chains versus time occupancy",
+      "pdf_page_range": "265\u2013269",
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "cell_id": "08-017",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "8.5",
+      "chapter": 8,
+      "title": "Historical mortgage-index regression",
+      "pdf_page_range": "274\u2013283",
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "cell_id": "08-021",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "8.6",
+      "chapter": 8,
+      "title": "Autoregression and accumulated forecast uncertainty",
+      "pdf_page_range": "283\u2013292",
+      "notebook": "notebooks/08_stochastic_models.ipynb",
+      "cell_id": "08-027",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "9.1",
+      "chapter": 9,
+      "title": "At least three consecutive rainy days",
+      "pdf_page_range": "304\u2013310",
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "cell_id": "09-002",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "9.2",
+      "chapter": 9,
+      "title": "Stochastic manual docking",
+      "pdf_page_range": "311\u2013319",
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "cell_id": "09-007",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "9.3",
+      "chapter": 9,
+      "title": "Markovian first passage and inverse transforms",
+      "pdf_page_range": "314\u2013315",
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "cell_id": "09-012",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "9.4",
+      "chapter": 9,
+      "title": "Analytic simulation of an idealized reliability mission",
+      "pdf_page_range": "320\u2013326",
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "cell_id": "09-017",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "9.5",
+      "chapter": 9,
+      "title": "Particle tracking with position-dependent wind",
+      "pdf_page_range": "327\u2013338",
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "cell_id": "09-022",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    },
+    {
+      "kind": "example",
+      "id": "9.6",
+      "chapter": 9,
+      "title": "Fractional dispersion, heavy tails and unit reconciliation",
+      "pdf_page_range": "338\u2013349",
+      "notebook": "notebooks/09_simulation_probability_models.ipynb",
+      "cell_id": "09-030",
+      "status": "implemented_with_checks_execution_report_required",
+      "scope": "central model only; not every printed sub-analysis or figure"
+    }
+  ],
+  "exercises": [
+    {
+      "kind": "exercise",
+      "id": "1.1",
+      "chapter": 1,
+      "pdf_pages": [
+        24
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "1.2",
+      "chapter": 1,
+      "pdf_pages": [
+        24
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "1.3",
+      "chapter": 1,
+      "pdf_pages": [
+        24,
+        25
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "1.4",
+      "chapter": 1,
+      "pdf_pages": [
+        25
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "1.5",
+      "chapter": 1,
+      "pdf_pages": [
+        25
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "1.6",
+      "chapter": 1,
+      "pdf_pages": [
+        25,
+        26
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "1.7",
+      "chapter": 1,
+      "pdf_pages": [
+        26
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "1.8",
+      "chapter": 1,
+      "pdf_pages": [
+        26
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "1.9",
+      "chapter": 1,
+      "pdf_pages": [
+        26,
+        27
+      ],
+      "workbook": "01_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "2.1",
+      "chapter": 2,
+      "pdf_pages": [
+        58
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "2.2",
+      "chapter": 2,
+      "pdf_pages": [
+        58,
+        59
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "2.3",
+      "chapter": 2,
+      "pdf_pages": [
+        59
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "2.4",
+      "chapter": 2,
+      "pdf_pages": [
+        59
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "2.5",
+      "chapter": 2,
+      "pdf_pages": [
+        59,
+        60
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "2.6",
+      "chapter": 2,
+      "pdf_pages": [
+        60
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "2.7",
+      "chapter": 2,
+      "pdf_pages": [
+        60,
+        61
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "2.8",
+      "chapter": 2,
+      "pdf_pages": [
+        61
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "2.9",
+      "chapter": 2,
+      "pdf_pages": [
+        61,
+        62
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "2.10",
+      "chapter": 2,
+      "pdf_pages": [
+        62,
+        63
+      ],
+      "workbook": "02_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.1",
+      "chapter": 3,
+      "pdf_pages": [
+        110,
+        111
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.2",
+      "chapter": 3,
+      "pdf_pages": [
+        111
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.3",
+      "chapter": 3,
+      "pdf_pages": [
+        111
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.4",
+      "chapter": 3,
+      "pdf_pages": [
+        111,
+        112
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.5",
+      "chapter": 3,
+      "pdf_pages": [
+        112
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.6",
+      "chapter": 3,
+      "pdf_pages": [
+        112
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.7",
+      "chapter": 3,
+      "pdf_pages": [
+        112,
+        113
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.8",
+      "chapter": 3,
+      "pdf_pages": [
+        113
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.9",
+      "chapter": 3,
+      "pdf_pages": [
+        113
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.10",
+      "chapter": 3,
+      "pdf_pages": [
+        113,
+        114
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.11",
+      "chapter": 3,
+      "pdf_pages": [
+        114
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.12",
+      "chapter": 3,
+      "pdf_pages": [
+        114
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.13",
+      "chapter": 3,
+      "pdf_pages": [
+        114
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.14",
+      "chapter": 3,
+      "pdf_pages": [
+        114,
+        115
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.15",
+      "chapter": 3,
+      "pdf_pages": [
+        115
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.16",
+      "chapter": 3,
+      "pdf_pages": [
+        115,
+        116
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.17",
+      "chapter": 3,
+      "pdf_pages": [
+        116
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.18",
+      "chapter": 3,
+      "pdf_pages": [
+        116,
+        117
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.19",
+      "chapter": 3,
+      "pdf_pages": [
+        117
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.20",
+      "chapter": 3,
+      "pdf_pages": [
+        117
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.21",
+      "chapter": 3,
+      "pdf_pages": [
+        118
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.22",
+      "chapter": 3,
+      "pdf_pages": [
+        118
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "3.23",
+      "chapter": 3,
+      "pdf_pages": [
+        118,
+        119
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "3.24",
+      "chapter": 3,
+      "pdf_pages": [
+        119
+      ],
+      "workbook": "03_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.1",
+      "chapter": 4,
+      "pdf_pages": [
+        138,
+        139
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "4.2",
+      "chapter": 4,
+      "pdf_pages": [
+        139
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.3",
+      "chapter": 4,
+      "pdf_pages": [
+        139
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.4",
+      "chapter": 4,
+      "pdf_pages": [
+        139
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.5",
+      "chapter": 4,
+      "pdf_pages": [
+        139,
+        140
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "4.6",
+      "chapter": 4,
+      "pdf_pages": [
+        140
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.7",
+      "chapter": 4,
+      "pdf_pages": [
+        140,
+        141
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "4.8",
+      "chapter": 4,
+      "pdf_pages": [
+        141
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.9",
+      "chapter": 4,
+      "pdf_pages": [
+        141,
+        142
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "4.10",
+      "chapter": 4,
+      "pdf_pages": [
+        142
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "4.11",
+      "chapter": 4,
+      "pdf_pages": [
+        142
+      ],
+      "workbook": "04_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.1",
+      "chapter": 5,
+      "pdf_pages": [
+        170
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.2",
+      "chapter": 5,
+      "pdf_pages": [
+        170,
+        171
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "5.3",
+      "chapter": 5,
+      "pdf_pages": [
+        171
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.4",
+      "chapter": 5,
+      "pdf_pages": [
+        171
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.5",
+      "chapter": 5,
+      "pdf_pages": [
+        171,
+        172
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "5.6",
+      "chapter": 5,
+      "pdf_pages": [
+        172
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.7",
+      "chapter": 5,
+      "pdf_pages": [
+        172
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.8",
+      "chapter": 5,
+      "pdf_pages": [
+        172
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.9",
+      "chapter": 5,
+      "pdf_pages": [
+        172,
+        173
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "5.10",
+      "chapter": 5,
+      "pdf_pages": [
+        173
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.11",
+      "chapter": 5,
+      "pdf_pages": [
+        173
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.12",
+      "chapter": 5,
+      "pdf_pages": [
+        173,
+        174
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "5.13",
+      "chapter": 5,
+      "pdf_pages": [
+        174
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.14",
+      "chapter": 5,
+      "pdf_pages": [
+        174,
+        175
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "5.15",
+      "chapter": 5,
+      "pdf_pages": [
+        175
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "5.16",
+      "chapter": 5,
+      "pdf_pages": [
+        175
+      ],
+      "workbook": "05_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.1",
+      "chapter": 6,
+      "pdf_pages": [
+        212
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.2",
+      "chapter": 6,
+      "pdf_pages": [
+        212,
+        213
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.3",
+      "chapter": 6,
+      "pdf_pages": [
+        213,
+        214
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.4",
+      "chapter": 6,
+      "pdf_pages": [
+        214
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.5",
+      "chapter": 6,
+      "pdf_pages": [
+        214
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.6",
+      "chapter": 6,
+      "pdf_pages": [
+        214,
+        215
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.7",
+      "chapter": 6,
+      "pdf_pages": [
+        215
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.8",
+      "chapter": 6,
+      "pdf_pages": [
+        215,
+        216
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.9",
+      "chapter": 6,
+      "pdf_pages": [
+        216
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.10",
+      "chapter": 6,
+      "pdf_pages": [
+        216,
+        217
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.11",
+      "chapter": 6,
+      "pdf_pages": [
+        217
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.12",
+      "chapter": 6,
+      "pdf_pages": [
+        217
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.13",
+      "chapter": 6,
+      "pdf_pages": [
+        217,
+        218
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.14",
+      "chapter": 6,
+      "pdf_pages": [
+        218
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.15",
+      "chapter": 6,
+      "pdf_pages": [
+        218,
+        219
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.16",
+      "chapter": 6,
+      "pdf_pages": [
+        219
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.17",
+      "chapter": 6,
+      "pdf_pages": [
+        219
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.18",
+      "chapter": 6,
+      "pdf_pages": [
+        220
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.19",
+      "chapter": 6,
+      "pdf_pages": [
+        220
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.20",
+      "chapter": 6,
+      "pdf_pages": [
+        221
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.21",
+      "chapter": 6,
+      "pdf_pages": [
+        221
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.22",
+      "chapter": 6,
+      "pdf_pages": [
+        221,
+        222
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.23",
+      "chapter": 6,
+      "pdf_pages": [
+        223
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.24",
+      "chapter": 6,
+      "pdf_pages": [
+        223
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.25",
+      "chapter": 6,
+      "pdf_pages": [
+        223,
+        224
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "6.26",
+      "chapter": 6,
+      "pdf_pages": [
+        224
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "6.27",
+      "chapter": 6,
+      "pdf_pages": [
+        224,
+        225
+      ],
+      "workbook": "06_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.1",
+      "chapter": 7,
+      "pdf_pages": [
+        244,
+        245
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.2",
+      "chapter": 7,
+      "pdf_pages": [
+        245
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.3",
+      "chapter": 7,
+      "pdf_pages": [
+        245,
+        246
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.4",
+      "chapter": 7,
+      "pdf_pages": [
+        246
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.5",
+      "chapter": 7,
+      "pdf_pages": [
+        246
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.6",
+      "chapter": 7,
+      "pdf_pages": [
+        246,
+        247
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.7",
+      "chapter": 7,
+      "pdf_pages": [
+        247
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.8",
+      "chapter": 7,
+      "pdf_pages": [
+        247
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.9",
+      "chapter": 7,
+      "pdf_pages": [
+        248
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.10",
+      "chapter": 7,
+      "pdf_pages": [
+        248
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.11",
+      "chapter": 7,
+      "pdf_pages": [
+        248,
+        249
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.12",
+      "chapter": 7,
+      "pdf_pages": [
+        249
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.13",
+      "chapter": 7,
+      "pdf_pages": [
+        250
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.14",
+      "chapter": 7,
+      "pdf_pages": [
+        250,
+        251
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.15",
+      "chapter": 7,
+      "pdf_pages": [
+        251
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.16",
+      "chapter": 7,
+      "pdf_pages": [
+        251
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "7.17",
+      "chapter": 7,
+      "pdf_pages": [
+        251,
+        252
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "7.18",
+      "chapter": 7,
+      "pdf_pages": [
+        252
+      ],
+      "workbook": "07_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.1",
+      "chapter": 8,
+      "pdf_pages": [
+        293
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.2",
+      "chapter": 8,
+      "pdf_pages": [
+        293
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.3",
+      "chapter": 8,
+      "pdf_pages": [
+        293,
+        294
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.4",
+      "chapter": 8,
+      "pdf_pages": [
+        294
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.5",
+      "chapter": 8,
+      "pdf_pages": [
+        294,
+        295
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.6",
+      "chapter": 8,
+      "pdf_pages": [
+        295
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.7",
+      "chapter": 8,
+      "pdf_pages": [
+        295,
+        296
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.8",
+      "chapter": 8,
+      "pdf_pages": [
+        296
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.9",
+      "chapter": 8,
+      "pdf_pages": [
+        296,
+        297
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.10",
+      "chapter": 8,
+      "pdf_pages": [
+        297
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.11",
+      "chapter": 8,
+      "pdf_pages": [
+        297
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.12",
+      "chapter": 8,
+      "pdf_pages": [
+        297,
+        298
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.13",
+      "chapter": 8,
+      "pdf_pages": [
+        298
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.14",
+      "chapter": 8,
+      "pdf_pages": [
+        298,
+        299
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.15",
+      "chapter": 8,
+      "pdf_pages": [
+        299
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.16",
+      "chapter": 8,
+      "pdf_pages": [
+        299
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.17",
+      "chapter": 8,
+      "pdf_pages": [
+        299,
+        300
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.18",
+      "chapter": 8,
+      "pdf_pages": [
+        300,
+        301
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "8.19",
+      "chapter": 8,
+      "pdf_pages": [
+        301
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "8.20",
+      "chapter": 8,
+      "pdf_pages": [
+        301
+      ],
+      "workbook": "08_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.1",
+      "chapter": 9,
+      "pdf_pages": [
+        350
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.2",
+      "chapter": 9,
+      "pdf_pages": [
+        350
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.3",
+      "chapter": 9,
+      "pdf_pages": [
+        350,
+        351
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "9.4",
+      "chapter": 9,
+      "pdf_pages": [
+        351
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.5",
+      "chapter": 9,
+      "pdf_pages": [
+        351
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.6",
+      "chapter": 9,
+      "pdf_pages": [
+        351
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.7",
+      "chapter": 9,
+      "pdf_pages": [
+        352
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.8",
+      "chapter": 9,
+      "pdf_pages": [
+        352
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.9",
+      "chapter": 9,
+      "pdf_pages": [
+        352
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.10",
+      "chapter": 9,
+      "pdf_pages": [
+        352
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.11",
+      "chapter": 9,
+      "pdf_pages": [
+        352
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.12",
+      "chapter": 9,
+      "pdf_pages": [
+        352,
+        353
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "9.13",
+      "chapter": 9,
+      "pdf_pages": [
+        353
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.14",
+      "chapter": 9,
+      "pdf_pages": [
+        353
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.15",
+      "chapter": 9,
+      "pdf_pages": [
+        353
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.16",
+      "chapter": 9,
+      "pdf_pages": [
+        354
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.17",
+      "chapter": 9,
+      "pdf_pages": [
+        354
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.18",
+      "chapter": 9,
+      "pdf_pages": [
+        354,
+        355
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "9.19",
+      "chapter": 9,
+      "pdf_pages": [
+        355
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.20",
+      "chapter": 9,
+      "pdf_pages": [
+        355,
+        356
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "9.21",
+      "chapter": 9,
+      "pdf_pages": [
+        356
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.22",
+      "chapter": 9,
+      "pdf_pages": [
+        356,
+        357
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "9.23",
+      "chapter": 9,
+      "pdf_pages": [
+        357
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.24",
+      "chapter": 9,
+      "pdf_pages": [
+        357,
+        358
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    },
+    {
+      "kind": "exercise",
+      "id": "9.25",
+      "chapter": 9,
+      "pdf_pages": [
+        358
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.26",
+      "chapter": 9,
+      "pdf_pages": [
+        358
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.27",
+      "chapter": 9,
+      "pdf_pages": [
+        359
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.28",
+      "chapter": 9,
+      "pdf_pages": [
+        359
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 1
+    },
+    {
+      "kind": "exercise",
+      "id": "9.29",
+      "chapter": 9,
+      "pdf_pages": [
+        359,
+        360
+      ],
+      "workbook": "09_source_exercises.ipynb",
+      "status": "statement_only_not_solved",
+      "source_image_parts": 2
+    }
+  ],
+  "other_source_labels": [
+    {
+      "kind": "figure",
+      "id": "1.1",
+      "pdf_pages": [
+        13
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "1.2",
+      "pdf_pages": [
+        15
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "1.3",
+      "pdf_pages": [
+        16
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "1.4",
+      "pdf_pages": [
+        18
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "1.5",
+      "pdf_pages": [
+        19
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "1.6",
+      "pdf_pages": [
+        20
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.1",
+      "pdf_pages": [
+        30
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.2",
+      "pdf_pages": [
+        32
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.3",
+      "pdf_pages": [
+        32
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.4",
+      "pdf_pages": [
+        34
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.5",
+      "pdf_pages": [
+        35
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.6",
+      "pdf_pages": [
+        36
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.7",
+      "pdf_pages": [
+        37
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.8",
+      "pdf_pages": [
+        38
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.9",
+      "pdf_pages": [
+        40
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.10",
+      "pdf_pages": [
+        47
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.11",
+      "pdf_pages": [
+        47
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.12",
+      "pdf_pages": [
+        48
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.13",
+      "pdf_pages": [
+        51
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.14",
+      "pdf_pages": [
+        51
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.15",
+      "pdf_pages": [
+        52
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.16",
+      "pdf_pages": [
+        54
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "2.17",
+      "pdf_pages": [
+        56
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.1",
+      "pdf_pages": [
+        67
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.2",
+      "pdf_pages": [
+        67
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.3",
+      "pdf_pages": [
+        68
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.4",
+      "pdf_pages": [
+        69
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.5",
+      "pdf_pages": [
+        71
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.6",
+      "pdf_pages": [
+        73
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.7",
+      "pdf_pages": [
+        74
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.8",
+      "pdf_pages": [
+        75
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.9",
+      "pdf_pages": [
+        76
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.10",
+      "pdf_pages": [
+        77
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.11",
+      "pdf_pages": [
+        79
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.12",
+      "pdf_pages": [
+        79
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.13",
+      "pdf_pages": [
+        81
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.14",
+      "pdf_pages": [
+        84
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.15",
+      "pdf_pages": [
+        87
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.16",
+      "pdf_pages": [
+        88
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.17",
+      "pdf_pages": [
+        89
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.18",
+      "pdf_pages": [
+        90
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.19",
+      "pdf_pages": [
+        91
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.20",
+      "pdf_pages": [
+        92
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.21",
+      "pdf_pages": [
+        93
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.22",
+      "pdf_pages": [
+        94
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.23",
+      "pdf_pages": [
+        95
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.24",
+      "pdf_pages": [
+        96
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.25",
+      "pdf_pages": [
+        97
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.26",
+      "pdf_pages": [
+        97
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.27",
+      "pdf_pages": [
+        98
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.28",
+      "pdf_pages": [
+        100
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.29",
+      "pdf_pages": [
+        102
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.30",
+      "pdf_pages": [
+        103
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.31",
+      "pdf_pages": [
+        104
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.32",
+      "pdf_pages": [
+        106
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.33",
+      "pdf_pages": [
+        108
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.34",
+      "pdf_pages": [
+        108
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "3.35",
+      "pdf_pages": [
+        109
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.1",
+      "pdf_pages": [
+        123
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.2",
+      "pdf_pages": [
+        125
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.3",
+      "pdf_pages": [
+        127
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.4",
+      "pdf_pages": [
+        129
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.5",
+      "pdf_pages": [
+        131
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.6",
+      "pdf_pages": [
+        132
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.7",
+      "pdf_pages": [
+        134
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.8",
+      "pdf_pages": [
+        135
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "4.9",
+      "pdf_pages": [
+        137
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.1",
+      "pdf_pages": [
+        149
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.2",
+      "pdf_pages": [
+        151
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.3",
+      "pdf_pages": [
+        152
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.4",
+      "pdf_pages": [
+        155
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.5",
+      "pdf_pages": [
+        155
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.6",
+      "pdf_pages": [
+        156
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.7",
+      "pdf_pages": [
+        157
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.8",
+      "pdf_pages": [
+        160
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.9",
+      "pdf_pages": [
+        162
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.10",
+      "pdf_pages": [
+        162
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.11",
+      "pdf_pages": [
+        166
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.12",
+      "pdf_pages": [
+        167
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.13",
+      "pdf_pages": [
+        169
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.14",
+      "pdf_pages": [
+        169
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "5.15",
+      "pdf_pages": [
+        170
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.1",
+      "pdf_pages": [
+        178
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.2",
+      "pdf_pages": [
+        179
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.3",
+      "pdf_pages": [
+        180
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.4",
+      "pdf_pages": [
+        181
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.5",
+      "pdf_pages": [
+        181
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.6",
+      "pdf_pages": [
+        182
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.7",
+      "pdf_pages": [
+        182
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.8",
+      "pdf_pages": [
+        183
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.9",
+      "pdf_pages": [
+        187
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.10",
+      "pdf_pages": [
+        187
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.11",
+      "pdf_pages": [
+        188
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.12",
+      "pdf_pages": [
+        188
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.13",
+      "pdf_pages": [
+        189
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.14",
+      "pdf_pages": [
+        189
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.15",
+      "pdf_pages": [
+        190
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.16",
+      "pdf_pages": [
+        190
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.17",
+      "pdf_pages": [
+        191
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.18",
+      "pdf_pages": [
+        191
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.19",
+      "pdf_pages": [
+        193
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.20",
+      "pdf_pages": [
+        194
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.21",
+      "pdf_pages": [
+        194
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.22",
+      "pdf_pages": [
+        195
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.23",
+      "pdf_pages": [
+        197
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.24",
+      "pdf_pages": [
+        198
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.25",
+      "pdf_pages": [
+        198
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.26",
+      "pdf_pages": [
+        199
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.27",
+      "pdf_pages": [
+        202
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.28",
+      "pdf_pages": [
+        203
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.29",
+      "pdf_pages": [
+        203
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.30",
+      "pdf_pages": [
+        204
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.31",
+      "pdf_pages": [
+        204
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.32",
+      "pdf_pages": [
+        205
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.33",
+      "pdf_pages": [
+        208
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.34",
+      "pdf_pages": [
+        209
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.35",
+      "pdf_pages": [
+        209
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.36",
+      "pdf_pages": [
+        210
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.37",
+      "pdf_pages": [
+        210
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.38",
+      "pdf_pages": [
+        211
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "6.39",
+      "pdf_pages": [
+        222
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "7.1",
+      "pdf_pages": [
+        227
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "7.2",
+      "pdf_pages": [
+        228
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "7.3",
+      "pdf_pages": [
+        231
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "7.4",
+      "pdf_pages": [
+        235
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "7.5",
+      "pdf_pages": [
+        236
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "7.6",
+      "pdf_pages": [
+        240
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.1",
+      "pdf_pages": [
+        255
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.2",
+      "pdf_pages": [
+        256
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.3",
+      "pdf_pages": [
+        260
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.4",
+      "pdf_pages": [
+        262
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.5",
+      "pdf_pages": [
+        263
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.6",
+      "pdf_pages": [
+        264
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.7",
+      "pdf_pages": [
+        268
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.8",
+      "pdf_pages": [
+        270
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.9",
+      "pdf_pages": [
+        271
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.10",
+      "pdf_pages": [
+        276
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.11",
+      "pdf_pages": [
+        279
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.12",
+      "pdf_pages": [
+        280
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.13",
+      "pdf_pages": [
+        282
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.14",
+      "pdf_pages": [
+        287
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.15",
+      "pdf_pages": [
+        289
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.16",
+      "pdf_pages": [
+        290
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.17",
+      "pdf_pages": [
+        291
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "8.18",
+      "pdf_pages": [
+        291
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.1",
+      "pdf_pages": [
+        305
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.2",
+      "pdf_pages": [
+        307
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.3",
+      "pdf_pages": [
+        308
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.4",
+      "pdf_pages": [
+        309
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.5",
+      "pdf_pages": [
+        310
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.6",
+      "pdf_pages": [
+        312
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.7",
+      "pdf_pages": [
+        313
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.8",
+      "pdf_pages": [
+        315
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.9",
+      "pdf_pages": [
+        316
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.10",
+      "pdf_pages": [
+        317
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.11",
+      "pdf_pages": [
+        318
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.12",
+      "pdf_pages": [
+        319
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.13",
+      "pdf_pages": [
+        319
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.14",
+      "pdf_pages": [
+        322
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.15",
+      "pdf_pages": [
+        323
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.16",
+      "pdf_pages": [
+        323
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.17",
+      "pdf_pages": [
+        324
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.18",
+      "pdf_pages": [
+        325
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.19",
+      "pdf_pages": [
+        325
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.20",
+      "pdf_pages": [
+        327
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.21",
+      "pdf_pages": [
+        329
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.22",
+      "pdf_pages": [
+        330
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.23",
+      "pdf_pages": [
+        332
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.24",
+      "pdf_pages": [
+        333
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.25",
+      "pdf_pages": [
+        334
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.26",
+      "pdf_pages": [
+        336
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.27",
+      "pdf_pages": [
+        337
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.28",
+      "pdf_pages": [
+        339
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.29",
+      "pdf_pages": [
+        340
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.30",
+      "pdf_pages": [
+        343
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.31",
+      "pdf_pages": [
+        344
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.32",
+      "pdf_pages": [
+        345
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.33",
+      "pdf_pages": [
+        346
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.34",
+      "pdf_pages": [
+        349
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "figure",
+      "id": "9.35",
+      "pdf_pages": [
+        350
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "1.1",
+      "pdf_pages": [
+        14
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "1.2",
+      "pdf_pages": [
+        19
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "1.3",
+      "pdf_pages": [
+        19
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "1.4",
+      "pdf_pages": [
+        19
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "1.5",
+      "pdf_pages": [
+        24
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.1",
+      "pdf_pages": [
+        30
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.2",
+      "pdf_pages": [
+        31
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.3",
+      "pdf_pages": [
+        31
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.4",
+      "pdf_pages": [
+        31
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.5",
+      "pdf_pages": [
+        31
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.6",
+      "pdf_pages": [
+        33
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.7",
+      "pdf_pages": [
+        34
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.8",
+      "pdf_pages": [
+        34
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.9",
+      "pdf_pages": [
+        35
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.10",
+      "pdf_pages": [
+        36
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.11",
+      "pdf_pages": [
+        37
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.12",
+      "pdf_pages": [
+        46
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.13",
+      "pdf_pages": [
+        49
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.14",
+      "pdf_pages": [
+        50
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.15",
+      "pdf_pages": [
+        50
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.16",
+      "pdf_pages": [
+        53
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.17",
+      "pdf_pages": [
+        53
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.18",
+      "pdf_pages": [
+        54
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "2.19",
+      "pdf_pages": [
+        57
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.1",
+      "pdf_pages": [
+        66
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.2",
+      "pdf_pages": [
+        66
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.3",
+      "pdf_pages": [
+        66
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.4",
+      "pdf_pages": [
+        66
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.5",
+      "pdf_pages": [
+        68
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.6",
+      "pdf_pages": [
+        69
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.7",
+      "pdf_pages": [
+        69
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.8",
+      "pdf_pages": [
+        69
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.9",
+      "pdf_pages": [
+        70
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.10",
+      "pdf_pages": [
+        70
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.11",
+      "pdf_pages": [
+        71
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.12",
+      "pdf_pages": [
+        72
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.13",
+      "pdf_pages": [
+        73
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.14",
+      "pdf_pages": [
+        73
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.15",
+      "pdf_pages": [
+        75
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.16",
+      "pdf_pages": [
+        76
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.17",
+      "pdf_pages": [
+        78
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.18",
+      "pdf_pages": [
+        78
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.19",
+      "pdf_pages": [
+        80
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.20",
+      "pdf_pages": [
+        81
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.21",
+      "pdf_pages": [
+        81
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.22",
+      "pdf_pages": [
+        82
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.23",
+      "pdf_pages": [
+        83
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.24",
+      "pdf_pages": [
+        84
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.25",
+      "pdf_pages": [
+        84
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.26",
+      "pdf_pages": [
+        85
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.27",
+      "pdf_pages": [
+        86
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.28",
+      "pdf_pages": [
+        88
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.29",
+      "pdf_pages": [
+        89
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.30",
+      "pdf_pages": [
+        94
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.31",
+      "pdf_pages": [
+        94
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.32",
+      "pdf_pages": [
+        98
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.33",
+      "pdf_pages": [
+        101
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "3.34",
+      "pdf_pages": [
+        105
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.1",
+      "pdf_pages": [
+        123
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.2",
+      "pdf_pages": [
+        124
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.3",
+      "pdf_pages": [
+        127
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.4",
+      "pdf_pages": [
+        128
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.5",
+      "pdf_pages": [
+        128
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.6",
+      "pdf_pages": [
+        129
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.7",
+      "pdf_pages": [
+        130
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.8",
+      "pdf_pages": [
+        130
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.9",
+      "pdf_pages": [
+        133
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.10",
+      "pdf_pages": [
+        135
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.11",
+      "pdf_pages": [
+        136
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "4.12",
+      "pdf_pages": [
+        136
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.1",
+      "pdf_pages": [
+        146
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.2",
+      "pdf_pages": [
+        147
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.3",
+      "pdf_pages": [
+        147
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.4",
+      "pdf_pages": [
+        148
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.5",
+      "pdf_pages": [
+        148
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.6",
+      "pdf_pages": [
+        149
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.7",
+      "pdf_pages": [
+        149
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.8",
+      "pdf_pages": [
+        150
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.9",
+      "pdf_pages": [
+        150
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.10",
+      "pdf_pages": [
+        150
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.11",
+      "pdf_pages": [
+        150
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.12",
+      "pdf_pages": [
+        152
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.13",
+      "pdf_pages": [
+        154
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.14",
+      "pdf_pages": [
+        154
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.15",
+      "pdf_pages": [
+        159
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.16",
+      "pdf_pages": [
+        159
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.17",
+      "pdf_pages": [
+        159
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.18",
+      "pdf_pages": [
+        160
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.19",
+      "pdf_pages": [
+        161
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.20",
+      "pdf_pages": [
+        163
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.21",
+      "pdf_pages": [
+        163
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.22",
+      "pdf_pages": [
+        163
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.23",
+      "pdf_pages": [
+        164
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.24",
+      "pdf_pages": [
+        164
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.25",
+      "pdf_pages": [
+        164
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "5.26",
+      "pdf_pages": [
+        165
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.1",
+      "pdf_pages": [
+        178
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.2",
+      "pdf_pages": [
+        179
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.3",
+      "pdf_pages": [
+        179
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.4",
+      "pdf_pages": [
+        185
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.5",
+      "pdf_pages": [
+        185
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.6",
+      "pdf_pages": [
+        186
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.7",
+      "pdf_pages": [
+        186
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.8",
+      "pdf_pages": [
+        192
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.9",
+      "pdf_pages": [
+        196
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.10",
+      "pdf_pages": [
+        196
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.11",
+      "pdf_pages": [
+        196
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.12",
+      "pdf_pages": [
+        199
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.13",
+      "pdf_pages": [
+        199
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.14",
+      "pdf_pages": [
+        200
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.15",
+      "pdf_pages": [
+        200
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.16",
+      "pdf_pages": [
+        200
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.17",
+      "pdf_pages": [
+        201
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.18",
+      "pdf_pages": [
+        201
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.19",
+      "pdf_pages": [
+        206
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "6.20",
+      "pdf_pages": [
+        212
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.1",
+      "pdf_pages": [
+        227
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.2",
+      "pdf_pages": [
+        229
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.3",
+      "pdf_pages": [
+        229
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.4",
+      "pdf_pages": [
+        229
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.5",
+      "pdf_pages": [
+        230
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.6",
+      "pdf_pages": [
+        230
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.7",
+      "pdf_pages": [
+        231
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.8",
+      "pdf_pages": [
+        232
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.9",
+      "pdf_pages": [
+        232
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.10",
+      "pdf_pages": [
+        232
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.11",
+      "pdf_pages": [
+        232
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.12",
+      "pdf_pages": [
+        232
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.13",
+      "pdf_pages": [
+        233
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.14",
+      "pdf_pages": [
+        233
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.15",
+      "pdf_pages": [
+        235
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.16",
+      "pdf_pages": [
+        235
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.17",
+      "pdf_pages": [
+        235
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.18",
+      "pdf_pages": [
+        235
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.19",
+      "pdf_pages": [
+        236
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.20",
+      "pdf_pages": [
+        236
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.21",
+      "pdf_pages": [
+        236
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.22",
+      "pdf_pages": [
+        237
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.23",
+      "pdf_pages": [
+        237
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.24",
+      "pdf_pages": [
+        238
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.25",
+      "pdf_pages": [
+        238
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.26",
+      "pdf_pages": [
+        239
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.27",
+      "pdf_pages": [
+        240
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.28",
+      "pdf_pages": [
+        240
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.29",
+      "pdf_pages": [
+        240
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.30",
+      "pdf_pages": [
+        241
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.31",
+      "pdf_pages": [
+        241
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.32",
+      "pdf_pages": [
+        242
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.33",
+      "pdf_pages": [
+        243
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.34",
+      "pdf_pages": [
+        243
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "7.35",
+      "pdf_pages": [
+        243
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.1",
+      "pdf_pages": [
+        255
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.2",
+      "pdf_pages": [
+        256
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.3",
+      "pdf_pages": [
+        257
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.4",
+      "pdf_pages": [
+        257
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.5",
+      "pdf_pages": [
+        257
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.6",
+      "pdf_pages": [
+        258
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.7",
+      "pdf_pages": [
+        258
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.8",
+      "pdf_pages": [
+        260
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.9",
+      "pdf_pages": [
+        260
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.10",
+      "pdf_pages": [
+        261
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.11",
+      "pdf_pages": [
+        262
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.12",
+      "pdf_pages": [
+        265
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.13",
+      "pdf_pages": [
+        265
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.14",
+      "pdf_pages": [
+        265
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.15",
+      "pdf_pages": [
+        265
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.16",
+      "pdf_pages": [
+        266
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.17",
+      "pdf_pages": [
+        267
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.18",
+      "pdf_pages": [
+        267
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.19",
+      "pdf_pages": [
+        267
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.20",
+      "pdf_pages": [
+        267
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.21",
+      "pdf_pages": [
+        268
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.22",
+      "pdf_pages": [
+        269
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.23",
+      "pdf_pages": [
+        269
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.24",
+      "pdf_pages": [
+        270
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.25",
+      "pdf_pages": [
+        271
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.26",
+      "pdf_pages": [
+        272
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.27",
+      "pdf_pages": [
+        273
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.28",
+      "pdf_pages": [
+        273
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.29",
+      "pdf_pages": [
+        274
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.30",
+      "pdf_pages": [
+        276
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.31",
+      "pdf_pages": [
+        276
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.32",
+      "pdf_pages": [
+        276
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.33",
+      "pdf_pages": [
+        277
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.34",
+      "pdf_pages": [
+        277
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.35",
+      "pdf_pages": [
+        277
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.36",
+      "pdf_pages": [
+        277
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.37",
+      "pdf_pages": [
+        277
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.38",
+      "pdf_pages": [
+        278
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.39",
+      "pdf_pages": [
+        278
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.40",
+      "pdf_pages": [
+        278
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.41",
+      "pdf_pages": [
+        278
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.42",
+      "pdf_pages": [
+        281
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.43",
+      "pdf_pages": [
+        282
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.44",
+      "pdf_pages": [
+        282
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "8.45",
+      "pdf_pages": [
+        285
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.1",
+      "pdf_pages": [
+        305
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.2",
+      "pdf_pages": [
+        306
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.3",
+      "pdf_pages": [
+        308
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.4",
+      "pdf_pages": [
+        308
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.5",
+      "pdf_pages": [
+        308
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.6",
+      "pdf_pages": [
+        308
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.7",
+      "pdf_pages": [
+        314
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.8",
+      "pdf_pages": [
+        315
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.9",
+      "pdf_pages": [
+        315
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.10",
+      "pdf_pages": [
+        316
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.11",
+      "pdf_pages": [
+        316
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.12",
+      "pdf_pages": [
+        321
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.13",
+      "pdf_pages": [
+        321
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.14",
+      "pdf_pages": [
+        321
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.15",
+      "pdf_pages": [
+        321
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.16",
+      "pdf_pages": [
+        327
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.17",
+      "pdf_pages": [
+        328
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.18",
+      "pdf_pages": [
+        328
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.19",
+      "pdf_pages": [
+        328
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.20",
+      "pdf_pages": [
+        331
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.21",
+      "pdf_pages": [
+        339
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.22",
+      "pdf_pages": [
+        339
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.23",
+      "pdf_pages": [
+        340
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.24",
+      "pdf_pages": [
+        340
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.25",
+      "pdf_pages": [
+        340
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.26",
+      "pdf_pages": [
+        341
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.27",
+      "pdf_pages": [
+        348
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.28",
+      "pdf_pages": [
+        348
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.29",
+      "pdf_pages": [
+        356
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.30",
+      "pdf_pages": [
+        357
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "equation",
+      "id": "9.31",
+      "pdf_pages": [
+        357
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "1.1",
+      "pdf_pages": [
+        18
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.1",
+      "pdf_pages": [
+        71
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.2",
+      "pdf_pages": [
+        83
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.3",
+      "pdf_pages": [
+        93
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.4",
+      "pdf_pages": [
+        105
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.5",
+      "pdf_pages": [
+        107
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.6",
+      "pdf_pages": [
+        109
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "3.7",
+      "pdf_pages": [
+        115
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "6.1",
+      "pdf_pages": [
+        180
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "6.2",
+      "pdf_pages": [
+        184
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "7.1",
+      "pdf_pages": [
+        244
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "8.1",
+      "pdf_pages": [
+        275
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "8.2",
+      "pdf_pages": [
+        298
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    },
+    {
+      "kind": "table",
+      "id": "8.3",
+      "pdf_pages": [
+        300
+      ],
+      "status": "source_label_located_not_individually_verified",
+      "note": "Automatic label inventory; repeated references can occur. It is not a completeness proof."
+    }
+  ]
+}

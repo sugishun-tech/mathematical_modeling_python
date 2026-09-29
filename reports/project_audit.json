@@ -1,0 +1,124 @@
+{
+  "scope": "Structural checks, recorded execution provenance, source-ID reconciliation and browser report. This is not a complete mathematical verification of the textbook.",
+  "main_notebooks": [
+    {
+      "notebook": "01_one_variable_optimization.ipynb",
+      "examples": [
+        "1.1"
+      ],
+      "code_cells": 4,
+      "validation": []
+    },
+    {
+      "notebook": "02_multivariable_optimization.ipynb",
+      "examples": [
+        "2.1",
+        "2.2",
+        "2.3",
+        "2.4",
+        "2.5"
+      ],
+      "code_cells": 7,
+      "validation": []
+    },
+    {
+      "notebook": "03_computational_optimization.ipynb",
+      "examples": [
+        "3.1",
+        "3.2",
+        "3.3",
+        "3.4",
+        "3.5",
+        "3.6",
+        "3.7"
+      ],
+      "code_cells": 10,
+      "validation": []
+    },
+    {
+      "notebook": "04_introduction_dynamic_models.ipynb",
+      "examples": [
+        "4.1",
+        "4.2",
+        "4.3",
+        "4.4"
+      ],
+      "code_cells": 12,
+      "validation": []
+    },
+    {
+      "notebook": "05_analysis_dynamic_models.ipynb",
+      "examples": [
+        "5.1",
+        "5.2",
+        "5.3",
+        "5.4"
+      ],
+      "code_cells": 9,
+      "validation": []
+    },
+    {
+      "notebook": "06_simulation_dynamic_models.ipynb",
+      "examples": [
+        "6.1",
+        "6.2",
+        "6.3",
+        "6.4",
+        "6.5",
+        "6.6"
+      ],
+      "code_cells": 21,
+      "validation": []
+    },
+    {
+      "notebook": "07_introduction_probability_models.ipynb",
+      "examples": [
+        "7.1",
+        "7.2",
+        "7.3",
+        "7.4",
+        "7.5"
+      ],
+      "code_cells": 10,
+      "validation": []
+    },
+    {
+      "notebook": "08_stochastic_models.ipynb",
+      "examples": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4",
+        "8.5",
+        "8.6"
+      ],
+      "code_cells": 13,
+      "validation": []
+    },
+    {
+      "notebook": "09_simulation_probability_models.ipynb",
+      "examples": [
+        "9.1",
+        "9.2",
+        "9.3",
+        "9.4",
+        "9.5",
+        "9.6"
+      ],
+      "code_cells": 17,
+      "validation": []
+    }
+  ],
+  "example_count": 44,
+  "assertion_statements": 115,
+  "stored_raster_figures": 39,
+  "exercise_solutions_implemented": 0,
+  "rendering": {
+    "chapters": 9,
+    "formula_renderings": 188,
+    "computed_figures": 39
+  },
+  "failures": [],
+  "passed": true,
+  "manual_visual_review": "No manual-review claim is inferred from the automated checks."
+}

@@ -1,0 +1,630 @@
+kind,id,chapter,pdf_pages_or_range,location,status
+example,1.1,1,12–24,notebooks/01_one_variable_optimization.ipynb,implemented_with_checks_execution_report_required
+example,2.1,2,29–38,notebooks/02_multivariable_optimization.ipynb,implemented_with_checks_execution_report_required
+example,2.2,2,39–54,notebooks/02_multivariable_optimization.ipynb,implemented_with_checks_execution_report_required
+example,2.3,2,42–43,notebooks/02_multivariable_optimization.ipynb,implemented_with_checks_execution_report_required
+example,2.4,2,43–45,notebooks/02_multivariable_optimization.ipynb,implemented_with_checks_execution_report_required
+example,2.5,2,55–57,notebooks/02_multivariable_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.1,3,65–73,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.2,3,74–78,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.3,3,78–82,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.4,3,83–92,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.5,3,90–98,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.6,3,99–106,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,3.7,3,107–109,notebooks/03_computational_optimization.ipynb,implemented_with_checks_execution_report_required
+example,4.1,4,122–126,notebooks/04_introduction_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,4.2,4,127–131,notebooks/04_introduction_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,4.3,4,132–138,notebooks/04_introduction_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,4.4,4,135–136,notebooks/04_introduction_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,5.1,5,145–151,notebooks/05_analysis_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,5.2,5,151–156,notebooks/05_analysis_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,5.3,5,156–165,notebooks/05_analysis_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,5.4,5,165–169,notebooks/05_analysis_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,6.1,6,177–184,notebooks/06_simulation_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,6.2,6,184–192,notebooks/06_simulation_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,6.3,6,192–199,notebooks/06_simulation_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,6.4,6,199–205,notebooks/06_simulation_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,6.5,6,200–201,notebooks/06_simulation_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,6.6,6,205–211,notebooks/06_simulation_dynamic_models.ipynb,implemented_with_checks_execution_report_required
+example,7.1,7,226–231,notebooks/07_introduction_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,7.2,7,227–230,notebooks/07_introduction_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,7.3,7,231–234,notebooks/07_introduction_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,7.4,7,234–239,notebooks/07_introduction_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,7.5,7,239–243,notebooks/07_introduction_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,8.1,8,254–264,notebooks/08_stochastic_models.ipynb,implemented_with_checks_execution_report_required
+example,8.2,8,255–259,notebooks/08_stochastic_models.ipynb,implemented_with_checks_execution_report_required
+example,8.3,8,264–274,notebooks/08_stochastic_models.ipynb,implemented_with_checks_execution_report_required
+example,8.4,8,265–269,notebooks/08_stochastic_models.ipynb,implemented_with_checks_execution_report_required
+example,8.5,8,274–283,notebooks/08_stochastic_models.ipynb,implemented_with_checks_execution_report_required
+example,8.6,8,283–292,notebooks/08_stochastic_models.ipynb,implemented_with_checks_execution_report_required
+example,9.1,9,304–310,notebooks/09_simulation_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,9.2,9,311–319,notebooks/09_simulation_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,9.3,9,314–315,notebooks/09_simulation_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,9.4,9,320–326,notebooks/09_simulation_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,9.5,9,327–338,notebooks/09_simulation_probability_models.ipynb,implemented_with_checks_execution_report_required
+example,9.6,9,338–349,notebooks/09_simulation_probability_models.ipynb,implemented_with_checks_execution_report_required
+exercise,1.1,1,24,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.2,1,24,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.3,1,24 25,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.4,1,25,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.5,1,25,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.6,1,25 26,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.7,1,26,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.8,1,26,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,1.9,1,26 27,Optional study bundle: 01_source_exercises.ipynb,statement_only_not_solved
+exercise,2.1,2,58,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.2,2,58 59,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.3,2,59,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.4,2,59,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.5,2,59 60,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.6,2,60,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.7,2,60 61,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.8,2,61,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.9,2,61 62,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,2.10,2,62 63,Optional study bundle: 02_source_exercises.ipynb,statement_only_not_solved
+exercise,3.1,3,110 111,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.2,3,111,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.3,3,111,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.4,3,111 112,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.5,3,112,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.6,3,112,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.7,3,112 113,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.8,3,113,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.9,3,113,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.10,3,113 114,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.11,3,114,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.12,3,114,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.13,3,114,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.14,3,114 115,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.15,3,115,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.16,3,115 116,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.17,3,116,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.18,3,116 117,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.19,3,117,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.20,3,117,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.21,3,118,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.22,3,118,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.23,3,118 119,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,3.24,3,119,Optional study bundle: 03_source_exercises.ipynb,statement_only_not_solved
+exercise,4.1,4,138 139,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.2,4,139,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.3,4,139,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.4,4,139,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.5,4,139 140,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.6,4,140,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.7,4,140 141,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.8,4,141,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.9,4,141 142,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.10,4,142,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,4.11,4,142,Optional study bundle: 04_source_exercises.ipynb,statement_only_not_solved
+exercise,5.1,5,170,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.2,5,170 171,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.3,5,171,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.4,5,171,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.5,5,171 172,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.6,5,172,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.7,5,172,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.8,5,172,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.9,5,172 173,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.10,5,173,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.11,5,173,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.12,5,173 174,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.13,5,174,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.14,5,174 175,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.15,5,175,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,5.16,5,175,Optional study bundle: 05_source_exercises.ipynb,statement_only_not_solved
+exercise,6.1,6,212,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.2,6,212 213,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.3,6,213 214,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.4,6,214,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.5,6,214,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.6,6,214 215,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.7,6,215,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.8,6,215 216,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.9,6,216,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.10,6,216 217,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.11,6,217,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.12,6,217,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.13,6,217 218,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.14,6,218,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.15,6,218 219,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.16,6,219,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.17,6,219,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.18,6,220,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.19,6,220,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.20,6,221,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.21,6,221,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.22,6,221 222,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.23,6,223,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.24,6,223,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.25,6,223 224,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.26,6,224,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,6.27,6,224 225,Optional study bundle: 06_source_exercises.ipynb,statement_only_not_solved
+exercise,7.1,7,244 245,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.2,7,245,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.3,7,245 246,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.4,7,246,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.5,7,246,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.6,7,246 247,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.7,7,247,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.8,7,247,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.9,7,248,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.10,7,248,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.11,7,248 249,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.12,7,249,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.13,7,250,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.14,7,250 251,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.15,7,251,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.16,7,251,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.17,7,251 252,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,7.18,7,252,Optional study bundle: 07_source_exercises.ipynb,statement_only_not_solved
+exercise,8.1,8,293,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.2,8,293,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.3,8,293 294,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.4,8,294,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.5,8,294 295,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.6,8,295,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.7,8,295 296,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.8,8,296,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.9,8,296 297,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.10,8,297,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.11,8,297,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.12,8,297 298,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.13,8,298,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.14,8,298 299,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.15,8,299,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.16,8,299,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.17,8,299 300,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.18,8,300 301,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.19,8,301,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,8.20,8,301,Optional study bundle: 08_source_exercises.ipynb,statement_only_not_solved
+exercise,9.1,9,350,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.2,9,350,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.3,9,350 351,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.4,9,351,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.5,9,351,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.6,9,351,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.7,9,352,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.8,9,352,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.9,9,352,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.10,9,352,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.11,9,352,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.12,9,352 353,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.13,9,353,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.14,9,353,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.15,9,353,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.16,9,354,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.17,9,354,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.18,9,354 355,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.19,9,355,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.20,9,355 356,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.21,9,356,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.22,9,356 357,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.23,9,357,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.24,9,357 358,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.25,9,358,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.26,9,358,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.27,9,359,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.28,9,359,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+exercise,9.29,9,359 360,Optional study bundle: 09_source_exercises.ipynb,statement_only_not_solved
+figure,1.1,1,13,Source PDF,source_label_located_not_individually_verified
+figure,1.2,1,15,Source PDF,source_label_located_not_individually_verified
+figure,1.3,1,16,Source PDF,source_label_located_not_individually_verified
+figure,1.4,1,18,Source PDF,source_label_located_not_individually_verified
+figure,1.5,1,19,Source PDF,source_label_located_not_individually_verified
+figure,1.6,1,20,Source PDF,source_label_located_not_individually_verified
+figure,2.1,2,30,Source PDF,source_label_located_not_individually_verified
+figure,2.2,2,32,Source PDF,source_label_located_not_individually_verified
+figure,2.3,2,32,Source PDF,source_label_located_not_individually_verified
+figure,2.4,2,34,Source PDF,source_label_located_not_individually_verified
+figure,2.5,2,35,Source PDF,source_label_located_not_individually_verified
+figure,2.6,2,36,Source PDF,source_label_located_not_individually_verified
+figure,2.7,2,37,Source PDF,source_label_located_not_individually_verified
+figure,2.8,2,38,Source PDF,source_label_located_not_individually_verified
+figure,2.9,2,40,Source PDF,source_label_located_not_individually_verified
+figure,2.10,2,47,Source PDF,source_label_located_not_individually_verified
+figure,2.11,2,47,Source PDF,source_label_located_not_individually_verified
+figure,2.12,2,48,Source PDF,source_label_located_not_individually_verified
+figure,2.13,2,51,Source PDF,source_label_located_not_individually_verified
+figure,2.14,2,51,Source PDF,source_label_located_not_individually_verified
+figure,2.15,2,52,Source PDF,source_label_located_not_individually_verified
+figure,2.16,2,54,Source PDF,source_label_located_not_individually_verified
+figure,2.17,2,56,Source PDF,source_label_located_not_individually_verified
+figure,3.1,3,67,Source PDF,source_label_located_not_individually_verified
+figure,3.2,3,67,Source PDF,source_label_located_not_individually_verified
+figure,3.3,3,68,Source PDF,source_label_located_not_individually_verified
+figure,3.4,3,69,Source PDF,source_label_located_not_individually_verified
+figure,3.5,3,71,Source PDF,source_label_located_not_individually_verified
+figure,3.6,3,73,Source PDF,source_label_located_not_individually_verified
+figure,3.7,3,74,Source PDF,source_label_located_not_individually_verified
+figure,3.8,3,75,Source PDF,source_label_located_not_individually_verified
+figure,3.9,3,76,Source PDF,source_label_located_not_individually_verified
+figure,3.10,3,77,Source PDF,source_label_located_not_individually_verified
+figure,3.11,3,79,Source PDF,source_label_located_not_individually_verified
+figure,3.12,3,79,Source PDF,source_label_located_not_individually_verified
+figure,3.13,3,81,Source PDF,source_label_located_not_individually_verified
+figure,3.14,3,84,Source PDF,source_label_located_not_individually_verified
+figure,3.15,3,87,Source PDF,source_label_located_not_individually_verified
+figure,3.16,3,88,Source PDF,source_label_located_not_individually_verified
+figure,3.17,3,89,Source PDF,source_label_located_not_individually_verified
+figure,3.18,3,90,Source PDF,source_label_located_not_individually_verified
+figure,3.19,3,91,Source PDF,source_label_located_not_individually_verified
+figure,3.20,3,92,Source PDF,source_label_located_not_individually_verified
+figure,3.21,3,93,Source PDF,source_label_located_not_individually_verified
+figure,3.22,3,94,Source PDF,source_label_located_not_individually_verified
+figure,3.23,3,95,Source PDF,source_label_located_not_individually_verified
+figure,3.24,3,96,Source PDF,source_label_located_not_individually_verified
+figure,3.25,3,97,Source PDF,source_label_located_not_individually_verified
+figure,3.26,3,97,Source PDF,source_label_located_not_individually_verified
+figure,3.27,3,98,Source PDF,source_label_located_not_individually_verified
+figure,3.28,3,100,Source PDF,source_label_located_not_individually_verified
+figure,3.29,3,102,Source PDF,source_label_located_not_individually_verified
+figure,3.30,3,103,Source PDF,source_label_located_not_individually_verified
+figure,3.31,3,104,Source PDF,source_label_located_not_individually_verified
+figure,3.32,3,106,Source PDF,source_label_located_not_individually_verified
+figure,3.33,3,108,Source PDF,source_label_located_not_individually_verified
+figure,3.34,3,108,Source PDF,source_label_located_not_individually_verified
+figure,3.35,3,109,Source PDF,source_label_located_not_individually_verified
+figure,4.1,4,123,Source PDF,source_label_located_not_individually_verified
+figure,4.2,4,125,Source PDF,source_label_located_not_individually_verified
+figure,4.3,4,127,Source PDF,source_label_located_not_individually_verified
+figure,4.4,4,129,Source PDF,source_label_located_not_individually_verified
+figure,4.5,4,131,Source PDF,source_label_located_not_individually_verified
+figure,4.6,4,132,Source PDF,source_label_located_not_individually_verified
+figure,4.7,4,134,Source PDF,source_label_located_not_individually_verified
+figure,4.8,4,135,Source PDF,source_label_located_not_individually_verified
+figure,4.9,4,137,Source PDF,source_label_located_not_individually_verified
+figure,5.1,5,149,Source PDF,source_label_located_not_individually_verified
+figure,5.2,5,151,Source PDF,source_label_located_not_individually_verified
+figure,5.3,5,152,Source PDF,source_label_located_not_individually_verified
+figure,5.4,5,155,Source PDF,source_label_located_not_individually_verified
+figure,5.5,5,155,Source PDF,source_label_located_not_individually_verified
+figure,5.6,5,156,Source PDF,source_label_located_not_individually_verified
+figure,5.7,5,157,Source PDF,source_label_located_not_individually_verified
+figure,5.8,5,160,Source PDF,source_label_located_not_individually_verified
+figure,5.9,5,162,Source PDF,source_label_located_not_individually_verified
+figure,5.10,5,162,Source PDF,source_label_located_not_individually_verified
+figure,5.11,5,166,Source PDF,source_label_located_not_individually_verified
+figure,5.12,5,167,Source PDF,source_label_located_not_individually_verified
+figure,5.13,5,169,Source PDF,source_label_located_not_individually_verified
+figure,5.14,5,169,Source PDF,source_label_located_not_individually_verified
+figure,5.15,5,170,Source PDF,source_label_located_not_individually_verified
+figure,6.1,6,178,Source PDF,source_label_located_not_individually_verified
+figure,6.2,6,179,Source PDF,source_label_located_not_individually_verified
+figure,6.3,6,180,Source PDF,source_label_located_not_individually_verified
+figure,6.4,6,181,Source PDF,source_label_located_not_individually_verified
+figure,6.5,6,181,Source PDF,source_label_located_not_individually_verified
+figure,6.6,6,182,Source PDF,source_label_located_not_individually_verified
+figure,6.7,6,182,Source PDF,source_label_located_not_individually_verified
+figure,6.8,6,183,Source PDF,source_label_located_not_individually_verified
+figure,6.9,6,187,Source PDF,source_label_located_not_individually_verified
+figure,6.10,6,187,Source PDF,source_label_located_not_individually_verified
+figure,6.11,6,188,Source PDF,source_label_located_not_individually_verified
+figure,6.12,6,188,Source PDF,source_label_located_not_individually_verified
+figure,6.13,6,189,Source PDF,source_label_located_not_individually_verified
+figure,6.14,6,189,Source PDF,source_label_located_not_individually_verified
+figure,6.15,6,190,Source PDF,source_label_located_not_individually_verified
+figure,6.16,6,190,Source PDF,source_label_located_not_individually_verified
+figure,6.17,6,191,Source PDF,source_label_located_not_individually_verified
+figure,6.18,6,191,Source PDF,source_label_located_not_individually_verified
+figure,6.19,6,193,Source PDF,source_label_located_not_individually_verified
+figure,6.20,6,194,Source PDF,source_label_located_not_individually_verified
+figure,6.21,6,194,Source PDF,source_label_located_not_individually_verified
+figure,6.22,6,195,Source PDF,source_label_located_not_individually_verified
+figure,6.23,6,197,Source PDF,source_label_located_not_individually_verified
+figure,6.24,6,198,Source PDF,source_label_located_not_individually_verified
+figure,6.25,6,198,Source PDF,source_label_located_not_individually_verified
+figure,6.26,6,199,Source PDF,source_label_located_not_individually_verified
+figure,6.27,6,202,Source PDF,source_label_located_not_individually_verified
+figure,6.28,6,203,Source PDF,source_label_located_not_individually_verified
+figure,6.29,6,203,Source PDF,source_label_located_not_individually_verified
+figure,6.30,6,204,Source PDF,source_label_located_not_individually_verified
+figure,6.31,6,204,Source PDF,source_label_located_not_individually_verified
+figure,6.32,6,205,Source PDF,source_label_located_not_individually_verified
+figure,6.33,6,208,Source PDF,source_label_located_not_individually_verified
+figure,6.34,6,209,Source PDF,source_label_located_not_individually_verified
+figure,6.35,6,209,Source PDF,source_label_located_not_individually_verified
+figure,6.36,6,210,Source PDF,source_label_located_not_individually_verified
+figure,6.37,6,210,Source PDF,source_label_located_not_individually_verified
+figure,6.38,6,211,Source PDF,source_label_located_not_individually_verified
+figure,6.39,6,222,Source PDF,source_label_located_not_individually_verified
+figure,7.1,7,227,Source PDF,source_label_located_not_individually_verified
+figure,7.2,7,228,Source PDF,source_label_located_not_individually_verified
+figure,7.3,7,231,Source PDF,source_label_located_not_individually_verified
+figure,7.4,7,235,Source PDF,source_label_located_not_individually_verified
+figure,7.5,7,236,Source PDF,source_label_located_not_individually_verified
+figure,7.6,7,240,Source PDF,source_label_located_not_individually_verified
+figure,8.1,8,255,Source PDF,source_label_located_not_individually_verified
+figure,8.2,8,256,Source PDF,source_label_located_not_individually_verified
+figure,8.3,8,260,Source PDF,source_label_located_not_individually_verified
+figure,8.4,8,262,Source PDF,source_label_located_not_individually_verified
+figure,8.5,8,263,Source PDF,source_label_located_not_individually_verified
+figure,8.6,8,264,Source PDF,source_label_located_not_individually_verified
+figure,8.7,8,268,Source PDF,source_label_located_not_individually_verified
+figure,8.8,8,270,Source PDF,source_label_located_not_individually_verified
+figure,8.9,8,271,Source PDF,source_label_located_not_individually_verified
+figure,8.10,8,276,Source PDF,source_label_located_not_individually_verified
+figure,8.11,8,279,Source PDF,source_label_located_not_individually_verified
+figure,8.12,8,280,Source PDF,source_label_located_not_individually_verified
+figure,8.13,8,282,Source PDF,source_label_located_not_individually_verified
+figure,8.14,8,287,Source PDF,source_label_located_not_individually_verified
+figure,8.15,8,289,Source PDF,source_label_located_not_individually_verified
+figure,8.16,8,290,Source PDF,source_label_located_not_individually_verified
+figure,8.17,8,291,Source PDF,source_label_located_not_individually_verified
+figure,8.18,8,291,Source PDF,source_label_located_not_individually_verified
+figure,9.1,9,305,Source PDF,source_label_located_not_individually_verified
+figure,9.2,9,307,Source PDF,source_label_located_not_individually_verified
+figure,9.3,9,308,Source PDF,source_label_located_not_individually_verified
+figure,9.4,9,309,Source PDF,source_label_located_not_individually_verified
+figure,9.5,9,310,Source PDF,source_label_located_not_individually_verified
+figure,9.6,9,312,Source PDF,source_label_located_not_individually_verified
+figure,9.7,9,313,Source PDF,source_label_located_not_individually_verified
+figure,9.8,9,315,Source PDF,source_label_located_not_individually_verified
+figure,9.9,9,316,Source PDF,source_label_located_not_individually_verified
+figure,9.10,9,317,Source PDF,source_label_located_not_individually_verified
+figure,9.11,9,318,Source PDF,source_label_located_not_individually_verified
+figure,9.12,9,319,Source PDF,source_label_located_not_individually_verified
+figure,9.13,9,319,Source PDF,source_label_located_not_individually_verified
+figure,9.14,9,322,Source PDF,source_label_located_not_individually_verified
+figure,9.15,9,323,Source PDF,source_label_located_not_individually_verified
+figure,9.16,9,323,Source PDF,source_label_located_not_individually_verified
+figure,9.17,9,324,Source PDF,source_label_located_not_individually_verified
+figure,9.18,9,325,Source PDF,source_label_located_not_individually_verified
+figure,9.19,9,325,Source PDF,source_label_located_not_individually_verified
+figure,9.20,9,327,Source PDF,source_label_located_not_individually_verified
+figure,9.21,9,329,Source PDF,source_label_located_not_individually_verified
+figure,9.22,9,330,Source PDF,source_label_located_not_individually_verified
+figure,9.23,9,332,Source PDF,source_label_located_not_individually_verified
+figure,9.24,9,333,Source PDF,source_label_located_not_individually_verified
+figure,9.25,9,334,Source PDF,source_label_located_not_individually_verified
+figure,9.26,9,336,Source PDF,source_label_located_not_individually_verified
+figure,9.27,9,337,Source PDF,source_label_located_not_individually_verified
+figure,9.28,9,339,Source PDF,source_label_located_not_individually_verified
+figure,9.29,9,340,Source PDF,source_label_located_not_individually_verified
+figure,9.30,9,343,Source PDF,source_label_located_not_individually_verified
+figure,9.31,9,344,Source PDF,source_label_located_not_individually_verified
+figure,9.32,9,345,Source PDF,source_label_located_not_individually_verified
+figure,9.33,9,346,Source PDF,source_label_located_not_individually_verified
+figure,9.34,9,349,Source PDF,source_label_located_not_individually_verified
+figure,9.35,9,350,Source PDF,source_label_located_not_individually_verified
+equation,1.1,1,14,Source PDF,source_label_located_not_individually_verified
+equation,1.2,1,19,Source PDF,source_label_located_not_individually_verified
+equation,1.3,1,19,Source PDF,source_label_located_not_individually_verified
+equation,1.4,1,19,Source PDF,source_label_located_not_individually_verified
+equation,1.5,1,24,Source PDF,source_label_located_not_individually_verified
+equation,2.1,2,30,Source PDF,source_label_located_not_individually_verified
+equation,2.2,2,31,Source PDF,source_label_located_not_individually_verified
+equation,2.3,2,31,Source PDF,source_label_located_not_individually_verified
+equation,2.4,2,31,Source PDF,source_label_located_not_individually_verified
+equation,2.5,2,31,Source PDF,source_label_located_not_individually_verified
+equation,2.6,2,33,Source PDF,source_label_located_not_individually_verified
+equation,2.7,2,34,Source PDF,source_label_located_not_individually_verified
+equation,2.8,2,34,Source PDF,source_label_located_not_individually_verified
+equation,2.9,2,35,Source PDF,source_label_located_not_individually_verified
+equation,2.10,2,36,Source PDF,source_label_located_not_individually_verified
+equation,2.11,2,37,Source PDF,source_label_located_not_individually_verified
+equation,2.12,2,46,Source PDF,source_label_located_not_individually_verified
+equation,2.13,2,49,Source PDF,source_label_located_not_individually_verified
+equation,2.14,2,50,Source PDF,source_label_located_not_individually_verified
+equation,2.15,2,50,Source PDF,source_label_located_not_individually_verified
+equation,2.16,2,53,Source PDF,source_label_located_not_individually_verified
+equation,2.17,2,53,Source PDF,source_label_located_not_individually_verified
+equation,2.18,2,54,Source PDF,source_label_located_not_individually_verified
+equation,2.19,2,57,Source PDF,source_label_located_not_individually_verified
+equation,3.1,3,66,Source PDF,source_label_located_not_individually_verified
+equation,3.2,3,66,Source PDF,source_label_located_not_individually_verified
+equation,3.3,3,66,Source PDF,source_label_located_not_individually_verified
+equation,3.4,3,66,Source PDF,source_label_located_not_individually_verified
+equation,3.5,3,68,Source PDF,source_label_located_not_individually_verified
+equation,3.6,3,69,Source PDF,source_label_located_not_individually_verified
+equation,3.7,3,69,Source PDF,source_label_located_not_individually_verified
+equation,3.8,3,69,Source PDF,source_label_located_not_individually_verified
+equation,3.9,3,70,Source PDF,source_label_located_not_individually_verified
+equation,3.10,3,70,Source PDF,source_label_located_not_individually_verified
+equation,3.11,3,71,Source PDF,source_label_located_not_individually_verified
+equation,3.12,3,72,Source PDF,source_label_located_not_individually_verified
+equation,3.13,3,73,Source PDF,source_label_located_not_individually_verified
+equation,3.14,3,73,Source PDF,source_label_located_not_individually_verified
+equation,3.15,3,75,Source PDF,source_label_located_not_individually_verified
+equation,3.16,3,76,Source PDF,source_label_located_not_individually_verified
+equation,3.17,3,78,Source PDF,source_label_located_not_individually_verified
+equation,3.18,3,78,Source PDF,source_label_located_not_individually_verified
+equation,3.19,3,80,Source PDF,source_label_located_not_individually_verified
+equation,3.20,3,81,Source PDF,source_label_located_not_individually_verified
+equation,3.21,3,81,Source PDF,source_label_located_not_individually_verified
+equation,3.22,3,82,Source PDF,source_label_located_not_individually_verified
+equation,3.23,3,83,Source PDF,source_label_located_not_individually_verified
+equation,3.24,3,84,Source PDF,source_label_located_not_individually_verified
+equation,3.25,3,84,Source PDF,source_label_located_not_individually_verified
+equation,3.26,3,85,Source PDF,source_label_located_not_individually_verified
+equation,3.27,3,86,Source PDF,source_label_located_not_individually_verified
+equation,3.28,3,88,Source PDF,source_label_located_not_individually_verified
+equation,3.29,3,89,Source PDF,source_label_located_not_individually_verified
+equation,3.30,3,94,Source PDF,source_label_located_not_individually_verified
+equation,3.31,3,94,Source PDF,source_label_located_not_individually_verified
+equation,3.32,3,98,Source PDF,source_label_located_not_individually_verified
+equation,3.33,3,101,Source PDF,source_label_located_not_individually_verified
+equation,3.34,3,105,Source PDF,source_label_located_not_individually_verified
+equation,4.1,4,123,Source PDF,source_label_located_not_individually_verified
+equation,4.2,4,124,Source PDF,source_label_located_not_individually_verified
+equation,4.3,4,127,Source PDF,source_label_located_not_individually_verified
+equation,4.4,4,128,Source PDF,source_label_located_not_individually_verified
+equation,4.5,4,128,Source PDF,source_label_located_not_individually_verified
+equation,4.6,4,129,Source PDF,source_label_located_not_individually_verified
+equation,4.7,4,130,Source PDF,source_label_located_not_individually_verified
+equation,4.8,4,130,Source PDF,source_label_located_not_individually_verified
+equation,4.9,4,133,Source PDF,source_label_located_not_individually_verified
+equation,4.10,4,135,Source PDF,source_label_located_not_individually_verified
+equation,4.11,4,136,Source PDF,source_label_located_not_individually_verified
+equation,4.12,4,136,Source PDF,source_label_located_not_individually_verified
+equation,5.1,5,146,Source PDF,source_label_located_not_individually_verified
+equation,5.2,5,147,Source PDF,source_label_located_not_individually_verified
+equation,5.3,5,147,Source PDF,source_label_located_not_individually_verified
+equation,5.4,5,148,Source PDF,source_label_located_not_individually_verified
+equation,5.5,5,148,Source PDF,source_label_located_not_individually_verified
+equation,5.6,5,149,Source PDF,source_label_located_not_individually_verified
+equation,5.7,5,149,Source PDF,source_label_located_not_individually_verified
+equation,5.8,5,150,Source PDF,source_label_located_not_individually_verified
+equation,5.9,5,150,Source PDF,source_label_located_not_individually_verified
+equation,5.10,5,150,Source PDF,source_label_located_not_individually_verified
+equation,5.11,5,150,Source PDF,source_label_located_not_individually_verified
+equation,5.12,5,152,Source PDF,source_label_located_not_individually_verified
+equation,5.13,5,154,Source PDF,source_label_located_not_individually_verified
+equation,5.14,5,154,Source PDF,source_label_located_not_individually_verified
+equation,5.15,5,159,Source PDF,source_label_located_not_individually_verified
+equation,5.16,5,159,Source PDF,source_label_located_not_individually_verified
+equation,5.17,5,159,Source PDF,source_label_located_not_individually_verified
+equation,5.18,5,160,Source PDF,source_label_located_not_individually_verified
+equation,5.19,5,161,Source PDF,source_label_located_not_individually_verified
+equation,5.20,5,163,Source PDF,source_label_located_not_individually_verified
+equation,5.21,5,163,Source PDF,source_label_located_not_individually_verified
+equation,5.22,5,163,Source PDF,source_label_located_not_individually_verified
+equation,5.23,5,164,Source PDF,source_label_located_not_individually_verified
+equation,5.24,5,164,Source PDF,source_label_located_not_individually_verified
+equation,5.25,5,164,Source PDF,source_label_located_not_individually_verified
+equation,5.26,5,165,Source PDF,source_label_located_not_individually_verified
+equation,6.1,6,178,Source PDF,source_label_located_not_individually_verified
+equation,6.2,6,179,Source PDF,source_label_located_not_individually_verified
+equation,6.3,6,179,Source PDF,source_label_located_not_individually_verified
+equation,6.4,6,185,Source PDF,source_label_located_not_individually_verified
+equation,6.5,6,185,Source PDF,source_label_located_not_individually_verified
+equation,6.6,6,186,Source PDF,source_label_located_not_individually_verified
+equation,6.7,6,186,Source PDF,source_label_located_not_individually_verified
+equation,6.8,6,192,Source PDF,source_label_located_not_individually_verified
+equation,6.9,6,196,Source PDF,source_label_located_not_individually_verified
+equation,6.10,6,196,Source PDF,source_label_located_not_individually_verified
+equation,6.11,6,196,Source PDF,source_label_located_not_individually_verified
+equation,6.12,6,199,Source PDF,source_label_located_not_individually_verified
+equation,6.13,6,199,Source PDF,source_label_located_not_individually_verified
+equation,6.14,6,200,Source PDF,source_label_located_not_individually_verified
+equation,6.15,6,200,Source PDF,source_label_located_not_individually_verified
+equation,6.16,6,200,Source PDF,source_label_located_not_individually_verified
+equation,6.17,6,201,Source PDF,source_label_located_not_individually_verified
+equation,6.18,6,201,Source PDF,source_label_located_not_individually_verified
+equation,6.19,6,206,Source PDF,source_label_located_not_individually_verified
+equation,6.20,6,212,Source PDF,source_label_located_not_individually_verified
+equation,7.1,7,227,Source PDF,source_label_located_not_individually_verified
+equation,7.2,7,229,Source PDF,source_label_located_not_individually_verified
+equation,7.3,7,229,Source PDF,source_label_located_not_individually_verified
+equation,7.4,7,229,Source PDF,source_label_located_not_individually_verified
+equation,7.5,7,230,Source PDF,source_label_located_not_individually_verified
+equation,7.6,7,230,Source PDF,source_label_located_not_individually_verified
+equation,7.7,7,231,Source PDF,source_label_located_not_individually_verified
+equation,7.8,7,232,Source PDF,source_label_located_not_individually_verified
+equation,7.9,7,232,Source PDF,source_label_located_not_individually_verified
+equation,7.10,7,232,Source PDF,source_label_located_not_individually_verified
+equation,7.11,7,232,Source PDF,source_label_located_not_individually_verified
+equation,7.12,7,232,Source PDF,source_label_located_not_individually_verified
+equation,7.13,7,233,Source PDF,source_label_located_not_individually_verified
+equation,7.14,7,233,Source PDF,source_label_located_not_individually_verified
+equation,7.15,7,235,Source PDF,source_label_located_not_individually_verified
+equation,7.16,7,235,Source PDF,source_label_located_not_individually_verified
+equation,7.17,7,235,Source PDF,source_label_located_not_individually_verified
+equation,7.18,7,235,Source PDF,source_label_located_not_individually_verified
+equation,7.19,7,236,Source PDF,source_label_located_not_individually_verified
+equation,7.20,7,236,Source PDF,source_label_located_not_individually_verified
+equation,7.21,7,236,Source PDF,source_label_located_not_individually_verified
+equation,7.22,7,237,Source PDF,source_label_located_not_individually_verified
+equation,7.23,7,237,Source PDF,source_label_located_not_individually_verified
+equation,7.24,7,238,Source PDF,source_label_located_not_individually_verified
+equation,7.25,7,238,Source PDF,source_label_located_not_individually_verified
+equation,7.26,7,239,Source PDF,source_label_located_not_individually_verified
+equation,7.27,7,240,Source PDF,source_label_located_not_individually_verified
+equation,7.28,7,240,Source PDF,source_label_located_not_individually_verified
+equation,7.29,7,240,Source PDF,source_label_located_not_individually_verified
+equation,7.30,7,241,Source PDF,source_label_located_not_individually_verified
+equation,7.31,7,241,Source PDF,source_label_located_not_individually_verified
+equation,7.32,7,242,Source PDF,source_label_located_not_individually_verified
+equation,7.33,7,243,Source PDF,source_label_located_not_individually_verified
+equation,7.34,7,243,Source PDF,source_label_located_not_individually_verified
+equation,7.35,7,243,Source PDF,source_label_located_not_individually_verified
+equation,8.1,8,255,Source PDF,source_label_located_not_individually_verified
+equation,8.2,8,256,Source PDF,source_label_located_not_individually_verified
+equation,8.3,8,257,Source PDF,source_label_located_not_individually_verified
+equation,8.4,8,257,Source PDF,source_label_located_not_individually_verified
+equation,8.5,8,257,Source PDF,source_label_located_not_individually_verified
+equation,8.6,8,258,Source PDF,source_label_located_not_individually_verified
+equation,8.7,8,258,Source PDF,source_label_located_not_individually_verified
+equation,8.8,8,260,Source PDF,source_label_located_not_individually_verified
+equation,8.9,8,260,Source PDF,source_label_located_not_individually_verified
+equation,8.10,8,261,Source PDF,source_label_located_not_individually_verified
+equation,8.11,8,262,Source PDF,source_label_located_not_individually_verified
+equation,8.12,8,265,Source PDF,source_label_located_not_individually_verified
+equation,8.13,8,265,Source PDF,source_label_located_not_individually_verified
+equation,8.14,8,265,Source PDF,source_label_located_not_individually_verified
+equation,8.15,8,265,Source PDF,source_label_located_not_individually_verified
+equation,8.16,8,266,Source PDF,source_label_located_not_individually_verified
+equation,8.17,8,267,Source PDF,source_label_located_not_individually_verified
+equation,8.18,8,267,Source PDF,source_label_located_not_individually_verified
+equation,8.19,8,267,Source PDF,source_label_located_not_individually_verified
+equation,8.20,8,267,Source PDF,source_label_located_not_individually_verified
+equation,8.21,8,268,Source PDF,source_label_located_not_individually_verified
+equation,8.22,8,269,Source PDF,source_label_located_not_individually_verified
+equation,8.23,8,269,Source PDF,source_label_located_not_individually_verified
+equation,8.24,8,270,Source PDF,source_label_located_not_individually_verified
+equation,8.25,8,271,Source PDF,source_label_located_not_individually_verified
+equation,8.26,8,272,Source PDF,source_label_located_not_individually_verified
+equation,8.27,8,273,Source PDF,source_label_located_not_individually_verified
+equation,8.28,8,273,Source PDF,source_label_located_not_individually_verified
+equation,8.29,8,274,Source PDF,source_label_located_not_individually_verified
+equation,8.30,8,276,Source PDF,source_label_located_not_individually_verified
+equation,8.31,8,276,Source PDF,source_label_located_not_individually_verified
+equation,8.32,8,276,Source PDF,source_label_located_not_individually_verified
+equation,8.33,8,277,Source PDF,source_label_located_not_individually_verified
+equation,8.34,8,277,Source PDF,source_label_located_not_individually_verified
+equation,8.35,8,277,Source PDF,source_label_located_not_individually_verified
+equation,8.36,8,277,Source PDF,source_label_located_not_individually_verified
+equation,8.37,8,277,Source PDF,source_label_located_not_individually_verified
+equation,8.38,8,278,Source PDF,source_label_located_not_individually_verified
+equation,8.39,8,278,Source PDF,source_label_located_not_individually_verified
+equation,8.40,8,278,Source PDF,source_label_located_not_individually_verified
+equation,8.41,8,278,Source PDF,source_label_located_not_individually_verified
+equation,8.42,8,281,Source PDF,source_label_located_not_individually_verified
+equation,8.43,8,282,Source PDF,source_label_located_not_individually_verified
+equation,8.44,8,282,Source PDF,source_label_located_not_individually_verified
+equation,8.45,8,285,Source PDF,source_label_located_not_individually_verified
+equation,9.1,9,305,Source PDF,source_label_located_not_individually_verified
+equation,9.2,9,306,Source PDF,source_label_located_not_individually_verified
+equation,9.3,9,308,Source PDF,source_label_located_not_individually_verified
+equation,9.4,9,308,Source PDF,source_label_located_not_individually_verified
+equation,9.5,9,308,Source PDF,source_label_located_not_individually_verified
+equation,9.6,9,308,Source PDF,source_label_located_not_individually_verified
+equation,9.7,9,314,Source PDF,source_label_located_not_individually_verified
+equation,9.8,9,315,Source PDF,source_label_located_not_individually_verified
+equation,9.9,9,315,Source PDF,source_label_located_not_individually_verified
+equation,9.10,9,316,Source PDF,source_label_located_not_individually_verified
+equation,9.11,9,316,Source PDF,source_label_located_not_individually_verified
+equation,9.12,9,321,Source PDF,source_label_located_not_individually_verified
+equation,9.13,9,321,Source PDF,source_label_located_not_individually_verified
+equation,9.14,9,321,Source PDF,source_label_located_not_individually_verified
+equation,9.15,9,321,Source PDF,source_label_located_not_individually_verified
+equation,9.16,9,327,Source PDF,source_label_located_not_individually_verified
+equation,9.17,9,328,Source PDF,source_label_located_not_individually_verified
+equation,9.18,9,328,Source PDF,source_label_located_not_individually_verified
+equation,9.19,9,328,Source PDF,source_label_located_not_individually_verified
+equation,9.20,9,331,Source PDF,source_label_located_not_individually_verified
+equation,9.21,9,339,Source PDF,source_label_located_not_individually_verified
+equation,9.22,9,339,Source PDF,source_label_located_not_individually_verified
+equation,9.23,9,340,Source PDF,source_label_located_not_individually_verified
+equation,9.24,9,340,Source PDF,source_label_located_not_individually_verified
+equation,9.25,9,340,Source PDF,source_label_located_not_individually_verified
+equation,9.26,9,341,Source PDF,source_label_located_not_individually_verified
+equation,9.27,9,348,Source PDF,source_label_located_not_individually_verified
+equation,9.28,9,348,Source PDF,source_label_located_not_individually_verified
+equation,9.29,9,356,Source PDF,source_label_located_not_individually_verified
+equation,9.30,9,357,Source PDF,source_label_located_not_individually_verified
+equation,9.31,9,357,Source PDF,source_label_located_not_individually_verified
+table,1.1,1,18,Source PDF,source_label_located_not_individually_verified
+table,3.1,3,71,Source PDF,source_label_located_not_individually_verified
+table,3.2,3,83,Source PDF,source_label_located_not_individually_verified
+table,3.3,3,93,Source PDF,source_label_located_not_individually_verified
+table,3.4,3,105,Source PDF,source_label_located_not_individually_verified
+table,3.5,3,107,Source PDF,source_label_located_not_individually_verified
+table,3.6,3,109,Source PDF,source_label_located_not_individually_verified
+table,3.7,3,115,Source PDF,source_label_located_not_individually_verified
+table,6.1,6,180,Source PDF,source_label_located_not_individually_verified
+table,6.2,6,184,Source PDF,source_label_located_not_individually_verified
+table,7.1,7,244,Source PDF,source_label_located_not_individually_verified
+table,8.1,8,275,Source PDF,source_label_located_not_individually_verified
+table,8.2,8,298,Source PDF,source_label_located_not_individually_verified
+table,8.3,8,300,Source PDF,source_label_located_not_individually_verified

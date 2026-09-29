@@ -1,7 +1,7 @@
-.PHONY: install execute validate lab
+.PHONY: test execute validate audit html visual
 
-install:
-	python -m pip install -r requirements.txt
+test:
+	python -m pytest -q
 
 execute:
 	python run_all.py
@@ -9,5 +9,11 @@ execute:
 validate:
 	python run_all.py --validate-only
 
-lab:
-	jupyter lab
+audit:
+	python scripts/audit_project.py
+
+html:
+	python scripts/export_html.py
+
+visual:
+	python scripts/verify_rendering.py

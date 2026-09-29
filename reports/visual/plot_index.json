@@ -1,0 +1,275 @@
+[
+  {
+    "figure": 1,
+    "notebook": "01_one_variable_optimization.ipynb",
+    "example": "1.1",
+    "cell": 5,
+    "output": 0
+  },
+  {
+    "figure": 2,
+    "notebook": "02_multivariable_optimization.ipynb",
+    "example": "2.1",
+    "cell": 5,
+    "output": 0
+  },
+  {
+    "figure": 3,
+    "notebook": "03_computational_optimization.ipynb",
+    "example": "3.1",
+    "cell": 5,
+    "output": 0
+  },
+  {
+    "figure": 4,
+    "notebook": "03_computational_optimization.ipynb",
+    "example": "3.2",
+    "cell": 10,
+    "output": 0
+  },
+  {
+    "figure": 5,
+    "notebook": "04_introduction_dynamic_models.ipynb",
+    "example": "4.2",
+    "cell": 9,
+    "output": 0
+  },
+  {
+    "figure": 6,
+    "notebook": "04_introduction_dynamic_models.ipynb",
+    "example": "4.2",
+    "cell": 10,
+    "output": 0
+  },
+  {
+    "figure": 7,
+    "notebook": "04_introduction_dynamic_models.ipynb",
+    "example": "4.3",
+    "cell": 15,
+    "output": 0
+  },
+  {
+    "figure": 8,
+    "notebook": "04_introduction_dynamic_models.ipynb",
+    "example": "4.4",
+    "cell": 21,
+    "output": 0
+  },
+  {
+    "figure": 9,
+    "notebook": "04_introduction_dynamic_models.ipynb",
+    "example": "4.4",
+    "cell": 22,
+    "output": 0
+  },
+  {
+    "figure": 10,
+    "notebook": "05_analysis_dynamic_models.ipynb",
+    "example": "5.2",
+    "cell": 9,
+    "output": 0
+  },
+  {
+    "figure": 11,
+    "notebook": "05_analysis_dynamic_models.ipynb",
+    "example": "5.3",
+    "cell": 14,
+    "output": 0
+  },
+  {
+    "figure": 12,
+    "notebook": "05_analysis_dynamic_models.ipynb",
+    "example": "5.4",
+    "cell": 19,
+    "output": 0
+  },
+  {
+    "figure": 13,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.2",
+    "cell": 9,
+    "output": 1
+  },
+  {
+    "figure": 14,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.3",
+    "cell": 15,
+    "output": 0
+  },
+  {
+    "figure": 15,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.3",
+    "cell": 16,
+    "output": 0
+  },
+  {
+    "figure": 16,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.4",
+    "cell": 21,
+    "output": 0
+  },
+  {
+    "figure": 17,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.4",
+    "cell": 21,
+    "output": 2
+  },
+  {
+    "figure": 18,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.4",
+    "cell": 21,
+    "output": 4
+  },
+  {
+    "figure": 19,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.4",
+    "cell": 23,
+    "output": 0
+  },
+  {
+    "figure": 20,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.5",
+    "cell": 29,
+    "output": 0
+  },
+  {
+    "figure": 21,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.5",
+    "cell": 30,
+    "output": 0
+  },
+  {
+    "figure": 22,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.6",
+    "cell": 36,
+    "output": 0
+  },
+  {
+    "figure": 23,
+    "notebook": "06_simulation_dynamic_models.ipynb",
+    "example": "6.6",
+    "cell": 37,
+    "output": 0
+  },
+  {
+    "figure": 24,
+    "notebook": "07_introduction_probability_models.ipynb",
+    "example": "7.1",
+    "cell": 5,
+    "output": 0
+  },
+  {
+    "figure": 25,
+    "notebook": "07_introduction_probability_models.ipynb",
+    "example": "7.2",
+    "cell": 10,
+    "output": 0
+  },
+  {
+    "figure": 26,
+    "notebook": "07_introduction_probability_models.ipynb",
+    "example": "7.4",
+    "cell": 19,
+    "output": 0
+  },
+  {
+    "figure": 27,
+    "notebook": "07_introduction_probability_models.ipynb",
+    "example": "7.5",
+    "cell": 24,
+    "output": 0
+  },
+  {
+    "figure": 28,
+    "notebook": "08_stochastic_models.ipynb",
+    "example": "8.2",
+    "cell": 9,
+    "output": 0
+  },
+  {
+    "figure": 29,
+    "notebook": "08_stochastic_models.ipynb",
+    "example": "8.3",
+    "cell": 15,
+    "output": 0
+  },
+  {
+    "figure": 30,
+    "notebook": "08_stochastic_models.ipynb",
+    "example": "8.5",
+    "cell": 24,
+    "output": 0
+  },
+  {
+    "figure": 31,
+    "notebook": "08_stochastic_models.ipynb",
+    "example": "8.5",
+    "cell": 25,
+    "output": 0
+  },
+  {
+    "figure": 32,
+    "notebook": "08_stochastic_models.ipynb",
+    "example": "8.6",
+    "cell": 30,
+    "output": 0
+  },
+  {
+    "figure": 33,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.1",
+    "cell": 5,
+    "output": 0
+  },
+  {
+    "figure": 34,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.2",
+    "cell": 10,
+    "output": 0
+  },
+  {
+    "figure": 35,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.3",
+    "cell": 15,
+    "output": 0
+  },
+  {
+    "figure": 36,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.4",
+    "cell": 20,
+    "output": 0
+  },
+  {
+    "figure": 37,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.5",
+    "cell": 25,
+    "output": 0
+  },
+  {
+    "figure": 38,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.5",
+    "cell": 27,
+    "output": 0
+  },
+  {
+    "figure": 39,
+    "notebook": "09_simulation_probability_models.ipynb",
+    "example": "9.6",
+    "cell": 33,
+    "output": 0
+  }
+]

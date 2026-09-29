@@ -1,0 +1,14 @@
+{
+  "main_notebooks_executed": 9,
+  "numbered_examples": 44,
+  "instructional_sections_mapped": 33,
+  "unit_tests": 135,
+  "unit_test_failures_or_errors": 0,
+  "computed_plots": 39,
+  "html_formula_renderings": 188,
+  "browser_pages_passed": 10,
+  "source_exercise_statements": 164,
+  "source_attachments_decoded": 243,
+  "source_exercise_solutions_implemented": 0,
+  "limits": "Central numbered examples only. Not every textbook sub-analysis, equation or figure is independently verified; exercises are source prompts only."
+}

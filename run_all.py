@@ -1,157 +1,76 @@
 #!/usr/bin/env python3
+"""Execute notebooks in separate clean kernels; validate outputs and provenance."""
 from __future__ import annotations
-
-import argparse
-import fnmatch
-import sys
-import time
-import traceback
+import argparse,hashlib,json,re,sys,time
+from datetime import datetime,timezone
 from pathlib import Path
-
 import nbformat
-from jupyter_client import KernelManager
 from nbclient import NotebookClient
-from nbclient.exceptions import CellExecutionError
+ROOT=Path(__file__).resolve().parent
 
-ROOT = Path(__file__).resolve().parent
-NOTEBOOK_DIR = ROOT / "notebooks"
+def source_hash(nb):
+    data=[{'cell_type':c.cell_type,'source':c.source} for c in nb.cells]
+    return hashlib.sha256(json.dumps(data,ensure_ascii=False,sort_keys=True).encode()).hexdigest()
 
+def dependency_hash():
+    digest=hashlib.sha256()
+    for path in sorted((ROOT/'modeling').glob('*.py'))+sorted((ROOT/'data').glob('*.csv')):
+        digest.update(str(path.relative_to(ROOT)).encode());digest.update(path.read_bytes())
+    return digest.hexdigest()
 
-def discover(pattern: str) -> list[Path]:
-    return sorted(path for path in NOTEBOOK_DIR.glob("*.ipynb") if fnmatch.fnmatch(path.name, pattern))
+def validate(path,require_execution=True):
+    nb=nbformat.read(path,as_version=4);nbformat.validate(nb);issues=[];count=0
+    for i,c in enumerate(nb.cells):
+        if c.cell_type!='code' or not c.source.strip():continue
+        count+=1
+        if require_execution and c.execution_count is None:issues.append(f'cell {i}: unexecuted')
+        for out in c.get('outputs',[]):
+            if out.output_type=='error':issues.append(f"cell {i}: {out.get('ename')}: {out.get('evalue')}")
+            if out.output_type=='stream' and re.search(r'RuntimeWarning|Glyph .* missing|overflow encountered|invalid value encountered',out.get('text','')):
+                issues.append(f'cell {i}: numerical/rendering warning: {out.text[:200]}')
+    if require_execution and count:
+        v=nb.metadata.get('verification',{})
+        if v.get('source_sha256')!=source_hash(nb):issues.append('outputs missing provenance or stale against source')
+        if v.get('dependency_sha256')!=dependency_hash():issues.append('outputs stale against modules/data')
+    return issues
 
+def execute(path,timeout):
+    nb=nbformat.read(path,as_version=4);nbformat.validate(nb);started=time.perf_counter()
+    NotebookClient(nb,timeout=timeout,kernel_name='python3',allow_errors=False,
+                   resources={'metadata':{'path':str(ROOT)}}).execute()
+    nb.metadata['verification']={'source_sha256':source_hash(nb),'dependency_sha256':dependency_hash(),
+                                 'executed_utc':datetime.now(timezone.utc).isoformat(),'fresh_kernel':True}
+    temp=path.with_suffix('.tmp.ipynb');nbformat.write(nb,temp);issues=validate(temp)
+    if issues:
+        temp.unlink(missing_ok=True);raise RuntimeError('; '.join(issues))
+    temp.replace(path)
+    outputs=[o for c in nb.cells if c.cell_type=='code' for o in c.get('outputs',[])]
+    return {'notebook':str(path.relative_to(ROOT)),'status':'passed','seconds':round(time.perf_counter()-started,3),
+            'code_cells':sum(c.cell_type=='code' for c in nb.cells),'png_outputs':sum('image/png' in o.get('data',{}) for o in outputs),
+            'source_sha256':source_hash(nb)}
 
-def validate(path: Path) -> list[str]:
-    notebook = nbformat.read(path, as_version=4)
-    problems: list[str] = []
-    for cell_index, cell in enumerate(notebook.cells):
-        if cell.cell_type != "code":
-            continue
-        for output in cell.get("outputs", []):
-            if output.output_type == "error":
-                problems.append(f"cell {cell_index}: {output.get('ename')}: {output.get('evalue')}")
-    return problems
-
-
-def reset_kernel_namespace(client: NotebookClient) -> None:
-    """Clear user variables while keeping one kernel alive for the batch."""
-    assert client.kc is not None
-    message_id = client.kc.execute(
-        "get_ipython().run_line_magic('reset', '-f')",
-        silent=True,
-        store_history=False,
-    )
-    client.wait_for_reply(message_id)
-
-
-def cleanup_kernel(manager: KernelManager, client: NotebookClient | None) -> None:
-    """Best-effort cleanup that never hides the original notebook error."""
-    if client is not None and client.kc is not None:
+def main():
+    p=argparse.ArgumentParser(description=__doc__);p.add_argument('--pattern',default='*.ipynb');p.add_argument('--timeout',type=int,default=600);p.add_argument('--validate-only',action='store_true');args=p.parse_args()
+    paths=sorted((ROOT/'notebooks').glob(args.pattern))
+    if not paths:print('No notebooks matched',file=sys.stderr);return 2
+    report=[]
+    for path in paths:
+        print(('CHECK ' if args.validate_only else 'RUN   ')+path.name,flush=True)
         try:
-            client.kc.stop_channels()
-        except Exception:  # pragma: no cover - defensive cleanup
-            traceback.print_exc(file=sys.stderr)
-    try:
-        if manager.has_kernel:
-            manager.shutdown_kernel(now=True)
-    except Exception:  # pragma: no cover - defensive cleanup
-        traceback.print_exc(file=sys.stderr)
-    try:
-        manager.cleanup_resources()
-    except Exception:  # pragma: no cover - defensive cleanup
-        traceback.print_exc(file=sys.stderr)
-
-
-def execute_all(notebooks: list[Path], timeout: int) -> bool:
-    """Execute notebooks in order with one reusable Python kernel.
-
-    Reusing a kernel makes the full repository run faster and avoids repeatedly
-    allocating ZeroMQ ports. The user namespace is reset before every notebook,
-    so notebook variables do not leak across chapters.
-    """
-    manager = KernelManager(kernel_name="python3")
-    manager.start_kernel(cwd=str(ROOT))
-    client: NotebookClient | None = None
-    failed = False
-
-    try:
-        for index, path in enumerate(notebooks):
-            relative = path.relative_to(ROOT)
-            print(f"RUN  {relative}", flush=True)
-            notebook = nbformat.read(path, as_version=4)
-
-            if client is None:
-                client = NotebookClient(
-                    notebook,
-                    km=manager,
-                    timeout=timeout,
-                    kernel_name="python3",
-                    allow_errors=False,
-                    resources={"metadata": {"path": str(ROOT)}},
-                )
-                client.start_new_kernel_client()
-            else:
-                reset_kernel_namespace(client)
-                client.nb = notebook
-                client.timeout = timeout
-                client.reset_execution_trackers()
-
-            started = time.perf_counter()
-            try:
-                client.execute()
-            except CellExecutionError as error:
-                failed = True
-                print(f"FAIL {relative}: {error}", file=sys.stderr)
-                break
-            except Exception as error:
-                failed = True
-                print(f"FAIL {relative}: {type(error).__name__}: {error}", file=sys.stderr)
-                break
-
-            elapsed = time.perf_counter() - started
-            nbformat.write(client.nb, path)
-            problems = validate(path)
-            if problems:
-                failed = True
-                print(f"FAIL {relative}: notebook contains error outputs", file=sys.stderr)
-                for problem in problems:
-                    print(f"  {problem}", file=sys.stderr)
-                break
-            print(f"OK   {relative} ({elapsed:.1f}s)")
-    finally:
-        cleanup_kernel(manager, client)
-
-    return failed
-
-
-def main() -> int:
-    parser = argparse.ArgumentParser(description="Execute or validate all project notebooks.")
-    parser.add_argument("--pattern", default="*.ipynb", help="Notebook filename glob (default: *.ipynb)")
-    parser.add_argument("--timeout", type=int, default=900, help="Per-cell timeout in seconds")
-    parser.add_argument("--validate-only", action="store_true", help="Do not execute; only scan existing outputs")
-    args = parser.parse_args()
-
-    notebooks = discover(args.pattern)
-    if not notebooks:
-        print(f"No notebooks matched {args.pattern!r}", file=sys.stderr)
-        return 2
-
-    if args.validate_only:
-        failed = False
-        for path in notebooks:
-            relative = path.relative_to(ROOT)
-            problems = validate(path)
-            if problems:
-                failed = True
-                print(f"FAIL {relative}")
-                for problem in problems:
-                    print(f"  {problem}")
-            else:
-                print(f"OK   {relative}")
-        return 1 if failed else 0
-
-    return 1 if execute_all(notebooks, args.timeout) else 0
-
-
-if __name__ == "__main__":
-    raise SystemExit(main())
+            if args.validate_only:
+                issues=validate(path)
+                if issues:raise RuntimeError('; '.join(issues))
+                result={'notebook':str(path.relative_to(ROOT)),'status':'passed'}
+            else:result=execute(path,args.timeout)
+            report.append(result);print('PASS  '+path.name,flush=True)
+        except Exception as error:
+            report.append({'notebook':str(path.relative_to(ROOT)),'status':'failed','error':str(error)})
+            print('FAIL  '+path.name+'\n'+str(error),file=sys.stderr,flush=True)
+    folder=ROOT/'reports';folder.mkdir(exist_ok=True)
+    name='validation.json' if args.validate_only else 'execution.json'
+    old=[]
+    if (folder/name).exists():old=json.loads((folder/name).read_text()).get('results',[])
+    replaced={r['notebook'] for r in report};combined=[r for r in old if r['notebook'] not in replaced]+report
+    (folder/name).write_text(json.dumps({'created_utc':datetime.now(timezone.utc).isoformat(),'results':sorted(combined,key=lambda r:r['notebook'])},indent=2))
+    return int(any(r['status']!='passed' for r in report))
+if __name__=='__main__':raise SystemExit(main())

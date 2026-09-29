@@ -1,17 +1,30 @@
-# Source Notes
+# Source notes
 
-This repository is a computational study companion to Mark M. Meerschaert, *Mathematical Modeling*, 4th ed. (Academic Press, 2013).
+Primary source: Mark M. Meerschaert, *Mathematical Modeling*, fourth edition, Academic Press, 2013, ISBN 978-0-12-386912-8. The work was based on the supplied 368-page PDF, not a different edition or a secondary summary.
 
-The notebooks follow the book's organization:
+The PDF is not redistributed in the main code archive. Its SHA-256 fingerprint and 1-based file-page references are recorded in `reports/source_inventory.json`. The PDF omits some blank pages, so a single offset does not consistently convert file pages into printed page labels.
 
-- Chapter 1: Sections 1.1-1.3, including the pig-selling model, sensitivity, and robustness.
-- Chapter 2: Sections 2.1-2.3, including the color-TV model, Lagrange multipliers, and shadow prices.
-- Chapter 3: Sections 3.1-3.4, including Newton methods, facility location, farm linear programming, and integer programming.
-- Chapter 4: Sections 4.1-4.3, including competing populations, whale dynamics, and discrete docking control.
-- Chapter 5: Sections 5.1-5.3, including continuous/discrete eigenvalue tests and RLC phase portraits.
-- Chapter 6: Sections 6.1-6.4, including battle simulation, Euler's method, time-step bifurcation, and the Lorenz equations.
-- Chapter 7: Sections 7.1-7.4, including diode testing, expected value, exponential waiting times, the CLT, and diffusion.
-- Chapter 8: Sections 8.1-8.4, including Markov chains/processes, the forklift queue, CM1 regression, and AR(1) modeling.
-- Chapter 9: Sections 9.1-9.5, including rainy-day Monte Carlo, Markovian simulation, analytic simulation, particle tracking, and fractional diffusion.
+The nine main notebooks contain original English restatements, model equations, code, explanations and newly computed plots. Their purpose is to make the **implemented central examples** understandable without separately opening the book. They are not an exhaustive replacement for the book's exposition or a complete exercise solutions manual.
 
-The code intentionally does not reproduce all exercises or extended textbook exposition. Where a notebook adds a computational diagnostic not shown in the book, it is labeled as an extension in context.
+The optional source exercise study bundle preserves the original English statements as embedded raster images. This avoids inventing corrupted LaTeX from PDF text extraction, but those images are not searchable mathematical transcriptions. The source excerpts remain textbook content and are outside the MIT license. Permission to publish them has not been established, which is why they are distributed separately from the code archive.
+
+The full mortgage table is transcribed into `data/mortgage_indices.csv`; `data/cm1.csv` retains the existing CM1-only interface. All 37 CM1 values and dates agree between the two files. A source-table page render was generated for inspection. Additional historical values are data for textbook study, not current economic observations.
+
+The author's official correction list and further model discrepancies are discussed in `ERRATA.md`. Additional modern diagnostics—solver status checks, fresh kernels, uncertainty intervals, horizon censoring, and multi-step forecast variance—are identified as verification or modeling choices rather than attributed to a nonexistent complete textbook implementation.
+
+## Software references
+
+Numerical optimization uses the official [SciPy `milp` interface](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.milp.html), together with independent enumeration where the example is small enough. Static HTML mathematics is generated with MathJax SVG output; only generated SVG paths are included, not font files or a bundled dependency installation.
+
+## Citation
+
+```bibtex
+@book{meerschaert2013mathematical,
+  title = {Mathematical Modeling},
+  author = {Meerschaert, Mark M.},
+  edition = {4},
+  year = {2013},
+  publisher = {Academic Press},
+  isbn = {978-0-12-386912-8}
+}
+```
